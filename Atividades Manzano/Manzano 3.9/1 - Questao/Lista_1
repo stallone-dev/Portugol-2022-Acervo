@@ -25,3 +25,5 @@ resultado <- a + b * ( 1/3 )  //Soma dois numero e divide o resultado por um ter
 escreval ("O resultado da sua conta é", resultado)
 
 Fimalgoritmo
+
+//teste
