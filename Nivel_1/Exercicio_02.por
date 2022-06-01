@@ -1,5 +1,5 @@
 /*
-    Nível 0 - Exercício 05
+    Nível 1 - Exercício 02
     Fonte:  - Curso em vídeo
     ===================================================================
     
@@ -23,5 +23,12 @@
           potências de 10, como podemos representar?
     
     ===================================================================
-
 */
+
+programa 
+{
+	funcao inicio() 
+	{
+
+    }
+}

@@ -6,5 +6,12 @@
     Escreva um programa que gere a mensagem "Olá Mundo!"
     
     ====================================================
-
 */
+
+programa 
+{
+	funcao inicio() 
+	{
+
+    }
+}

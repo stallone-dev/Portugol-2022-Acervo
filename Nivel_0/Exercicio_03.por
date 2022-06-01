@@ -11,5 +11,12 @@
     Exemplo: "Stallone tem 22 anos e adora o sabor de sorvete!"
     
     ===================================================================
-
 */
+
+programa 
+{
+	funcao inicio() 
+	{
+
+    }
+}

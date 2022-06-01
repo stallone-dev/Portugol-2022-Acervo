@@ -3,22 +3,27 @@
     Fonte:  - Curso em vídeo
     ===================================================================
     
-    Escreva um programa que receba dois números inteiros e:
-        1 - Some o primeiro pelo segundo
-        2 - Subtraia o segundo do primeiro
-        3 - Multiplique um pelo outro
-        4 - Divida o primeiro pelo segundo
-        
-    Mostre depois a seguinte mensagem na tela:
-    
-    "Resultados:"
-    "[num1] + [num2] = [resposta]"
-    "[num1] - [num2] = [resposta]"
-    "[num1] x [num2] = [resposta]"
-    "[num1] / [num2] = [resposta]"
+    Mostrar na tela o texto é bem legal, porém é um pouo chato escrever
+    sempre um novo "escreva()" para cada nova linha, portanto, aqui o 
+    exercício:
 
-    Dica: Números inteiros não são como números reais.
+    Mostre na tela o texto abaixo utilizando UM ÚNICO escreva()
+    		"Olá, estou aprendendo a usar quebras de texto"
+    		"Agora eu posso separar linhas"
+    		""
+    		"E até pular linhas!"
+    		""
+    		"Showwww!"
+    
+    Dica: Já deu uma olhada no README, na parte sobre Textos?
     
     ===================================================================
-
 */
+
+programa 
+{
+	funcao inicio() 
+	{
+		
+	}
+}
