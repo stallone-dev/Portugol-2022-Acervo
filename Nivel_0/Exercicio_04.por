@@ -1,11 +1,18 @@
 /*
-    Nível 0 	- Exercício 04
-    Inspiração	- Curso em vídeo
-    ===================================================================
+    ========================== Informações ===========================
     
-    Apresentar na tela o texto é bem legal, porém é um pouco chato escrever
-    sempre um novo "escreva()" para cada nova linha, portanto, aqui o 
-    exercício:
+    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
+    
+    Autor original		- Gustavo Guanabara
+    Autor da refatoração	- Stallone L. de Souza
+
+    Atualizado em: 01/06/2022
+ 
+    ===================== Nível 0 - Exercício 04 =====================
+
+    Mostrar na tela o texto é bem legal, porém é um pouco chato escrever
+    sempre um novo "escreva()" para cada nova linha, portanto, aqui vai 
+    o exercício:
 
     Mostre na tela o texto abaixo utilizando UM ÚNICO escreva()
     		"Olá, estou aprendendo a usar quebras de texto"
@@ -13,17 +20,17 @@
     		""
     		"E até pular linhas!"
     		""
-    		"Showwww!"
+    		"Show!"
     
-    Dica: Já deu uma olhada no README aqui na pasta, na parte sobre Textos?
+    Dica: Já deu uma olhada no README, na parte sobre Textos?
     
-    ===================================================================
+    ==================================================================
 */
 
 programa 
 {
 	funcao inicio() 
 	{
-		
+
 	}
 }
