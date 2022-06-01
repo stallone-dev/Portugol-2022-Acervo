@@ -1,6 +1,6 @@
 /*
-    Nível 0 - Exercício 04
-    Fonte:  - Curso em vídeo
+    Nível 0 	- Exercício 04
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Mostrar na tela o texto é bem legal, porém é um pouo chato escrever

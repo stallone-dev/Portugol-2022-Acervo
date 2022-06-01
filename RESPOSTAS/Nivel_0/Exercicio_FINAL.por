@@ -1,6 +1,6 @@
 /*
-    Nível 0 - Exercício FINAL
-    Fonte:  - Curso em vídeo
+    Nível 0 	- Exercício FINAL
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Para finalizar esse nível, o exercício será um pequeno dever de casa:

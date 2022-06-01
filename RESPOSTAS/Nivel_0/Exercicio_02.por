@@ -1,6 +1,6 @@
 /*
-    Nível 0 - Exercício 02
-    Fonte:  - Curso em Vídeo
+    Nível 0 	- Exercício 02
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Escreva um programa que pergunte o nome da pessoa e então responda:

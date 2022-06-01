@@ -1,6 +1,6 @@
 /*
-    Nível 1 - Exercício 02
-    Fonte:  - Curso em vídeo
+    Nível 1 	- Exercício 02
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Escreva um programa que receba uma distância em Metros e converta em:
@@ -18,7 +18,6 @@
     "[METROS] metros é = [PASSOS] passos de 30cm" 
 
     Dica: Números inteiros não são como números reais.
-    
           Conversão entre metros, centímetros e quilômetros são
           potências de 10, como podemos representar?
     

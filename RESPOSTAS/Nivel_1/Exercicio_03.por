@@ -1,6 +1,6 @@
 /*
-    Nível 1 - Exercício 03
-    Fonte:  - Curso em vídeo
+    Nível 1 	- Exercício 03
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Escreva um programa que converta reais (R$) em dólares, euros e ouro

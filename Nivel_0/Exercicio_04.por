@@ -1,9 +1,9 @@
 /*
-    Nível 0 - Exercício 04
-    Fonte:  - Curso em vídeo
+    Nível 0 	- Exercício 04
+    Inspiração	- Curso em vídeo
     ===================================================================
     
-    Mostrar na tela o texto é bem legal, porém é um pouo chato escrever
+    Apresentar na tela o texto é bem legal, porém é um pouco chato escrever
     sempre um novo "escreva()" para cada nova linha, portanto, aqui o 
     exercício:
 
@@ -15,7 +15,7 @@
     		""
     		"Showwww!"
     
-    Dica: Já deu uma olhada no README, na parte sobre Textos?
+    Dica: Já deu uma olhada no README aqui na pasta, na parte sobre Textos?
     
     ===================================================================
 */

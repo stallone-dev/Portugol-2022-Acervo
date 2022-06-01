@@ -1,6 +1,6 @@
 /*
-    Nível 1 - Exercício 01
-    Fonte:  - Curso em vídeo
+    Nível 1 	- Exercício 01
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Escreva um programa que receba dois números inteiros e:

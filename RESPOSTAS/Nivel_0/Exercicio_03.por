@@ -1,6 +1,6 @@
 /*
-    Nível 0 - Exercício 03
-    Fonte:  - Curso em Vídeo
+    Nível 0 	- Exercício 03
+    Inspiração	- Curso em vídeo
     ===================================================================
     
     Escreva um programa que pergunte o nome, idade e sabor favorito

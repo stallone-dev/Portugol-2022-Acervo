@@ -1,6 +1,6 @@
 /*
-    Nível 0 - Exercício 01
-    Fonte:  - Curso em Vídeo
+    Nível 0 	- Exercício 01
+    Inspiração	- Curso em vídeo
     ====================================================
     
     Escreva um programa que gere a mensagem "Olá Mundo!"
