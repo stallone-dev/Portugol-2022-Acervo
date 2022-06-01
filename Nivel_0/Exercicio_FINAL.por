@@ -30,5 +30,6 @@ programa
 {
 	funcao inicio()
 	{
+        
     }
 }
