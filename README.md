@@ -1,1 +1,1 @@
-# Repositório de exercícios rápidos de Portugol
+# Exercícios de Portugol
