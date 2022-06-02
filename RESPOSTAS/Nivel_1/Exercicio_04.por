@@ -1,24 +1,37 @@
 /*
-    Nível 1 	- Exercício 04
-    Inspiração	- Curso em vídeo
-    ===================================================================
+    ========================== Informações ===========================
     
-    Você decidiu viajar de férias para a Europa, para isso você comprou
-    as passagens de ida e volta, alugou um carro por 2 semanas e um hotel
-    pelo mesmo tempo. 
+    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
+    
+    Autor original		- Gustavo Guanabara
+    Autor da refatoração	- Stallone L. de Souza
+
+    Atualizado em: 01/06/2022
+ 
+    ===================== Nível 1 - Exercício 04 =====================
+
+    Agora que você têm mais esperiência artimética, vamos tentar um
+    cenário real, útil e normalmente um pouco complicado:
+    
+    Imagine que você decidiu viajar de férias para a Portugal. Para isso
+    você comprou as passagens de ida e volta, alugou um carro por 2 semanas 
+    e um hotel pelo mesmo tempo.
+    
+    Considere que os seus custos foram: 
 		Cada passagem  = 579 euros
 		1 dia de hotel = 80  euros
 		1 dia de carro = 9.8 euros
     
-    Considerando que tudo foi feito pela mesma agência e ela deu 22% de
-    desconto no preço final, quanto, EM REAIS, vai custa sua viagem de 2 semanas?
+    Considerando que a compra de tudo isso foi feita na mesma agência
+    e ela deu um desconto de 22% no preço final, quanto, EM REAIS, vai 
+    custar sua viagem de 2 semanas?
 
-    Mostre na tela o valor final, EM REAIS.
+    Mostre na tela o valor total original, o desconto e o valor final, EM REAIS.
 
     Dica: Quanto está a cotação do Euro?
-          Em um cálculo longo, separar as partes é de grande ajuda.
+    		Etapas são sempre bem-vindas.
     
-    ===================================================================
+    ==================================================================
 */
 
 programa 
@@ -26,42 +39,66 @@ programa
 	funcao inicio() 
 	{
 
-	real dia_Hotel, dia_Carro, passagem
-	
-	real total_Hotel, total_Carro, total_Passagem
-	
-	real cota_Euro, desconto, total_Final, total_Final_com_Desconto, valor_em_Reais
+	/*
+	  Mais uma vez, será utilizada a estratégia de grupos:
+	  	-- Serão declarados grupos de variáveis:
+	  		-- Um grupo de valores p/unidade
+	  		-- Um grupo de valores totais
+	  		-- Um grupo de montante e desconto
+	  		-- Um grupo de resultados e conversões
+	  	-- Cada grupo será declarado e calculado sequencialmente
+	  	-- Será limpada a tela, utilizando o comando "limpa()"
+	  	   e será exibido os resultados de forma tabulada 
+	  	   pelo operador " \t "
+	*/
 
-	// Declarando e organizando os gastos
-	dia_Hotel = 80.0
-	dia_Carro = 9.8
+	// Parte 1 - Grupos de variáveis
+	real dia_hotel, dia_carro, passagem
+	
+	real total_hotel, total_carro, total_passagem
+
+	real montante_total, desconto, montante_com_desconto
+	
+	real cota_euro, montante_em_reais, desconto_em_reais, montante_com_desconto_em_reais
+
+
+	// Parte 2 - Declarando valores iniciais
+	dia_hotel = 80.0
+	dia_carro = 9.8
 	passagem  = 579.0
 
-	total_Hotel 	= dia_Hotel * 14
-	total_Carro 	= dia_Carro * 14
-	total_Passagem = passagem  * 2
+	total_hotel 	= dia_hotel * 14
+	total_carro 	= dia_carro * 14
+	total_passagem = passagem  * 2
 
-	// Organizando as conversões
-	cota_Euro = 5.1
-	desconto  = (22.0/100.0)
 
-	// Calculando o resultado
-	total_Final = (total_Hotel + total_Carro + total_Passagem)
-	total_Final_com_Desconto = total_Final * (1 - desconto)
+	// Parte 3 - Calculando montante e desconto
+	montante_total = total_hotel + total_carro + total_passagem
+
+	desconto 	= (22.0/100.0) // O valor " 22% " será melhor compreendido se calculado assim
 	
-	valor_em_Reais = total_Final_com_Desconto * cota_Euro
+	montante_com_desconto = montante_total * (1 - desconto)
 
 
-	// Mostrando o resultado
+	// Parte 4 - Convertendo valores
+	cota_euro = 5.1
+	
+	montante_em_reais = montante_total * cota_euro
+	desconto_em_reais = (montante_total * desconto) * cota_euro
 
-	escreva("O valor da viagem em reais é: R$ ",valor_em_Reais,"\n\n")
+	montante_com_desconto_em_reais = montante_com_desconto * cota_euro
+
+
+	// Parte 5 - Exibindo os resultados
+	escreva("O valor da viagem em reais será: R$ ",montante_com_desconto_em_reais,"\n\n")
 
 	escreva("Detalhes:\n")
-	escreva("Total em Reais sem desconto: \tR$ ", total_Final * cota_Euro, "\n")
 	
-	escreva("Desconto em Reais: \t\tR$ ", (total_Final * desconto) * cota_Euro , "\n")
+	escreva("Total em Reais sem desconto: \tR$ ", montante_em_reais, "\n")
 	
-	escreva("Total em Reais com desconto: \tR$ ", total_Final_com_Desconto * cota_Euro,"\n")
-			
+	escreva("Desconto em Reais: \t\tR$ ", desconto_em_reais, "\n")
+	
+	escreva("Total em Reais com desconto: \tR$ ",montante_com_desconto_em_reais,"\n")
+		
 	}
 }

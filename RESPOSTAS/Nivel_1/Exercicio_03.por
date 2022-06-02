@@ -17,7 +17,7 @@
     Aproveite para perguntar ao usuário qual a cotação atual de cada um.
         
     Mostre para o usuário quanto vale o valor dele nessas três moedas
-    separadamente e tabuladas (utilizar operador " \t ")
+    separadamente, de forma tabulada (utilizar operador " \t ")
 
     Dica: Separe em etapas e cuide bem das variáveis!
     
@@ -46,33 +46,36 @@ programa
 	
 	real real_para_dolar, real_para_euro, real_para_ouro
 	
-	real valor_de_entrada, saida_convertida
+	real valor_de_entrada
+
 
 	// Parte 2 - Perguntas ao usuário
 	escreva("Quantos reais você quer converter? R$ ")
 	leia(valor_de_entrada)
 
 	escreva("Quanto está a cotação do dólar? ")
+	leia(cota_dolar)
 
 	escreva("Quanto está a cotação do euro? ")
+	leia(cota_euro)
 
 	escreva("Quanto está a cotação do ouro? ")
+	leia(cota_ouro)
 
-	// Parte 2 - Perguntar a cotação atual
+	
+	// Parte 3 - Realizar os cálculos de conversão
+	real_para_dolar = valor_de_entrada / cota_dolar
+	real_para_euro  = valor_de_entrada / cota_euro
+	real_para_ouro  = valor_de_entrada / cota_ouro
+	
 		
-	// Cotação de 31/05/2022
-	CotaDolares = 4.75
-	CotaEuros   = 5.10
-	CotaOuro    = 281.68
+	// Parte 4 - Limpando a tela e mostrando os resultados
+	limpa()
+	escreva("O valor de R$ ", valor_de_entrada, " vale:\n\n")
 	
-	ConvDolares = reais / CotaDolares
-	ConvEuros   = reais / CotaEuros
-	ConvOuro    = reais / CotaOuro
-	
-	escreva("\nSeus R$ ", reais, " valem:\n\n")
-	escreva("Em dólares: ", ConvDolares, "\n")
-	escreva("Em euros: ", ConvEuros, "\n")
-	escreva("Em ouro: ", ConvOuro, "\n")
+	escreva("Em dólares:\t", real_para_dolar, "\n")
+	escreva("Em euros:\t", real_para_euro, "\n")
+	escreva("Em ouro:\t", real_para_ouro, "\n")
 		
 	}
 }
