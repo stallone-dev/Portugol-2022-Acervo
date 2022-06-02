@@ -8,7 +8,7 @@
 
     Atualizado em: 02/06/2022
  
-    ===================== Nível 2 - Exercício 04 =====================
+    ===================== Nível 2 - Exercício 05 =====================
 
     De volta à boa e velha lógica do desvio condicional!
 
@@ -42,6 +42,6 @@ programa
 {
 	funcao inicio() 
 	{
-			
+
 	}
 }
