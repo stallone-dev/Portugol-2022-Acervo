@@ -1,0 +1,1 @@
+# Repositório de exercícios rápidos de Portugol
