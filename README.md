@@ -1,5 +1,9 @@
 # Exercícios de Portugol - 2022
 
+![Licença utilizada](https://img.shields.io/github/license/stallone-dev/exercicios_portugol_2022?style=flat-square)
+
+
+
 <img align="right" src="./z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="200">
 
 ## Atalhos
