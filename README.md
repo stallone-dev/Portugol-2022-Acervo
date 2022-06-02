@@ -1,6 +1,7 @@
 # Exercícios de Portugol - 2022
 
 ![Licença utilizada](https://img.shields.io/github/license/stallone-dev/exercicios_portugol_2022?style=flat-square)
+![Situação Geral](https://img.shields.io/badge/STATUS-Em%20andamento-yellow?style=flat-square)
 
 
 
