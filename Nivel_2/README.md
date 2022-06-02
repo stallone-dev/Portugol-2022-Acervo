@@ -1,3 +1,3 @@
 # :hammer: Em construção :hammer:
 
-## [Retornar](/README.md)
+## [Retornar](https://github.com/stallone-dev/exercicios_portugol_2022)
