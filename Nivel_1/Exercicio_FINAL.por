@@ -11,7 +11,7 @@
     =================== Nível 1 - Exercício FINAL ====================
 
     Agora que chegou ao fim do nível 1, está na hora de fazer um último
-    trabalho aritmético:
+    desafio aritmético:
     
     Imaginando que um fumante perde, em média, 30 min de vida a cada 
     cigarro fumado, pergunte ao usuário quantos anos ele têm, quantos

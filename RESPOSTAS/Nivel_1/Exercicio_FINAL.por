@@ -11,7 +11,7 @@
     =================== Nível 1 - Exercício FINAL ====================
 
     Agora que chegou ao fim do nível 1, está na hora de fazer um último
-    trabalho aritmético:
+    desafio aritmético:
     
     Imaginando que um fumante perde, em média, 30 min de vida a cada 
     cigarro fumado, pergunte ao usuário quantos anos ele têm, quantos
@@ -44,7 +44,7 @@ programa
 
 	/*
 	  Para concluir este último desafio, vamos aplicar os conhecimentos
-	  obtidos até aqui, separando em grupos e etapas.
+	  obtidos até aqui.
 
 	  Desta vez, a estratégia será representada de um jeito diferente:
 	  Em vez de passos, serão definidos objetivos a serem concluídos.
@@ -52,7 +52,7 @@ programa
 	  Tendo isso dito, os objetivos são:
 	  	-- Transformar a entrada em uma medidade tempo
 	  	-- Converter esse valor-base nas medidas de tempo desejadas
-	  	-- Exibir para o usuário o resultado, de forma tabelada
+	  	-- Exibir para o usuário o resultado, de forma tabelada e arredondada
 	*/
 
 	// Grupo de variáveis
