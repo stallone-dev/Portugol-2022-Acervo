@@ -1,4 +1,4 @@
-<h1 aling="center"> Exercícios de Portugol <h1>
+# Exercíios de Portugol - 2022
 
 <img align="right" src="./z_imagens/LogoPortugol.png" width="200">
 
