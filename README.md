@@ -1,4 +1,4 @@
-# Exercícios de Portugol
+<h1 aling="center" Exercícios de Portugol>
 
 <img align="right" src="./z_imagens/LogoPortugol.png" width="200">
 
