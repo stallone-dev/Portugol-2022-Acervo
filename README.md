@@ -1,6 +1,6 @@
 # Exercíios de Portugol - 2022
 
-<img align="right" src="./z_imagens/LogoPortugol.png" width="200">
+<img align="right" src="./z_imagens/LogoPortugol.png" alt="Desenho de uma lâmpada representando o Portugol Studio" width="200">
 
 ## Atalhos
  * [Nível 0 - Entradas e Saídas](./Nivel_0/)
