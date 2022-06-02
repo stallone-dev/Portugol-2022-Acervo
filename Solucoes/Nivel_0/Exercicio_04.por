@@ -33,7 +33,8 @@ programa
 	{
 
 	// A ideia desse exercício é o uso do operador de quebra de linha: "\n"
-	// Por conta de limitações atuais do Portugol, é preciso escrever o texto inteiro em 1 linha, separando-o pela quebra.
+	// Por conta de limitações atuais do Portugol, é preciso escrever o texto 
+    // inteiro em 1 linha, separando-o pela quebra.
 	
 	escreva("Olá, estou aprendendo a usar quebras de texto\nAgora eu posso separar linhas!\n\nE até pular linhas!\n\nShowww!")
 		

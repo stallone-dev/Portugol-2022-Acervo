@@ -10,7 +10,7 @@
  
     ===================== Nível 1 - Exercício 04 =====================
 
-    Agora que você têm mais esperiência artimética, vamos tentar um
+    Agora que você têm mais esperiência aritmética, vamos tentar um
     cenário real, útil e normalmente um pouco complicado:
     
     Imagine que você decidiu viajar de férias para a Portugal. Para isso

@@ -27,6 +27,12 @@ programa
 {
 	funcao inicio() 
 	{
+    
+    // Esta coisinha abaixo é uma variável, representa um local dentro do código
+    // onde será guardado uma informação. No caso, este lugar está sendo chamado
+    // de "nome" e o tipo de lugar que isso ocupa é uma "cadeia", que acomoda
+    // uma palavra ou um texto.
+
 	cadeia nome
 	
 	escreva("Qual o seu nome? ")

@@ -16,11 +16,11 @@
     Vá em => Linguagem Portugol => Tipos
 
     Leia um pouco sobre os tipos de dados que o Portugol aceita, as famosas
-    Variáveis que tanto se fala nas linguagens.
+    Variáveis que tanto se fala nas linguagens de programação.
 
     Explore um pouco, experimente, divirta-se!
 
-    Na pasta RESPOSTAS, desse exercício aqui, você verá exemplos de cada
+    Na pasta SOLUÇÕES, desse exercício aqui, você verá exemplos de cada
     tipo de variável, com anotações sobre cada uma.
     
     ==================================================================
@@ -34,7 +34,7 @@ programa
 	// EXEMPLOS DE USO DOS DIFERENTES TIPOS DE DADOS
 
 	// CARACTER = somente uma letra ou número, entendido aqui como letra
-	// Não é muito utilizado, porém é uma forma de dados PRIMITIVOS
+	// Não é muito utilizado, porém ajudará quando chegar em "Matrizes"
 	caracter letra
 
 	escreva("[CARACTER]\n")

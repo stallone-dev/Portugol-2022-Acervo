@@ -26,6 +26,9 @@ programa
 	{
 	
 	escreva("Olá Mundo!")
+
+    // O comando "escreva()" é muito importante para saber o que está acontecendo
+    // busque usar ele quando quiser visualizar algum resultado
 				
 	}
 }
