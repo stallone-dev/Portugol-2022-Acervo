@@ -40,7 +40,8 @@ Há duas formas de utilizar ele:
 
 -📢 Pronto, você está na interface principal do Portugol WebStudio!
 
-<img align="left" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
+<img align="center" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
+
 
 
 ### **🖱️ Baixando e instalando**
