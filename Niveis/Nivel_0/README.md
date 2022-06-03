@@ -40,7 +40,7 @@ Há duas formas de utilizar ele:
 
 -📢 Pronto, você está na interface principal do Portugol WebStudio!
 
-<img align="center" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
+<img align="left" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
 
 
 ### **🖱️ Baixando e instalando**
@@ -49,7 +49,11 @@ Há duas formas de utilizar ele:
 
 -📢 Acesse a página oficial do [Portugol Studio](https://portugol-webstudio.cubos.io/ide)
 
+![Portugol Oficial](/z_imagens/Portugol%20Google%20Oficial.png)
+
 -📢 Vá em "Download" e baixe o instalador do Portugol
+
+<img align="left" src="/z_imagens/Portugol%20Oficial%20Download.png" width="50%" alt="Interface do PortugolWeb">
 
 -📢 Siga o passo-a-passo de instalação do Portugol
 
