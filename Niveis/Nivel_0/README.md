@@ -46,7 +46,6 @@ Há duas formas de acessar:
 
 </blockquote>
 </details>
-
 <details>
 <summary><h3><strong>💡 Baixando e instalando (clicke para mostrar)</strong></h3></summary>
 <blockquote>
