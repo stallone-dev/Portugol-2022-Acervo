@@ -14,6 +14,7 @@ Nestes primeiros passos, você aprenderá:
 * [Como criar e salvar arquivos](#gerenciando-arquivos)
 * [Primeiros passos](#primeiros-passos)
 * [Comandos básicos](#comandos-básicos)
+* [Como trabalhar os exercícios](#como-trabalhar-os-exercícios)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
 pequenos problemas no dia-a-dia, como fazer um cálculo tedioso ou ainda saber as medidas precisas 
@@ -25,12 +26,12 @@ Vamos lá!
 Para programar em Portugol é preciso um editor de texto especial, ele é chamado de "Portugol Studio".
 
 <div align="center">
-<img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio" width="80%">
+<img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio">
 </div>
 
 Com ele poderemos construir os códigos de forma mais simples e visual, bem como ter acesso rápido a um ótimo conjunto de exemplos e um guia de como funciona cada elemento.
 
-Vamos acessá-lo:
+Para acessá-lo, podemos usar um desses métodos:
 
 <details>
 <summary><h3><strong>💡 Pela internet (Aperte para mostrar)</strong></h3></summary>
@@ -88,3 +89,5 @@ Agora que temos acesso ao Portugol Studio, vamos ver como iniciar, salvar e abri
 ## Primeiros passos
 
 ## Comandos básicos 
+
+## Como trabalhar os exercícios

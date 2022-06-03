@@ -5,10 +5,10 @@
     
     ===================== Nível 0 - Exercício 04 =====================
 
-    Mostrar na tela o texto é bem legal, porém é um pouco chato escrever
+    Mostrar no resultado o texto é bem legal, porém é um pouco chato escrever
     sempre um novo "escreva()" para cada nova linha, portanto:
 
-    => Mostre na tela o texto abaixo utilizando UM ÚNICO "escreva()"
+    => Mostre no resultado o texto abaixo utilizando UM ÚNICO "escreva()"
         => "Olá, estou aprendendo a usar quebras de texto"
     	=> "Agora eu posso separar linhas"
     	=> ""
