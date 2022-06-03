@@ -47,7 +47,9 @@ Há duas formas de acessar:
 </blockquote>
 </details>
 
-### **💡 Baixando e instalando**
+<details>
+<summary><h3><strong>💡 Baixando e instalando (clicke para mostrar)</strong></h3></summary>
+<blockquote>
 
 -📢 Pesquise na Google por "Portugol"
 
@@ -68,6 +70,9 @@ Há duas formas de acessar:
 -📢 **Pronto! Você chegou na interface do Portugol**
 
 <img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio" width="60%">
+
+</blockquote>
+</details>
 
 ## Gerenciando arquivos
 [ATUALIZAR]
