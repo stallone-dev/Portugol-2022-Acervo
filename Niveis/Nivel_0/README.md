@@ -31,10 +31,14 @@ Há duas formas de utilizar ele:
 -A Pesquise na Google por "Portugol Online"
 
 -A Acesse o link que leva para "[Portugol Webstudio - IDE](https://portugol-webstudio.cubos.io/)"
+
 ![PortugolWeb Google](/z_imagens/PortugolGoogle.png)
 
 -A Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
-![PortugolWeb Logo](/z_imagens/PortugolWebLogo.png)
+
+
+<img src="./z_imagens/PortugolGoogle.png" alt="Logo do Portugol WebStudio">
+
 
 -A Pronto, você está na interface principal do Portugol WebStudio!
 
