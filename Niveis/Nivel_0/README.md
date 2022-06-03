@@ -36,11 +36,11 @@ Há duas formas de utilizar ele:
 
 -A Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
 
-
-<img src="./z_imagens/PortugolGoogle.png" alt="Logo do Portugol WebStudio">
-
+![PortugolWeb Logo](/z_imagens/PortugolWebLogo.png)
 
 -A Pronto, você está na interface principal do Portugol WebStudio!
+
+<img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Imagem da logo" width="280">
 
 
 
