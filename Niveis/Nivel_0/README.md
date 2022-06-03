@@ -24,9 +24,9 @@ Vamos lá!
 ## 🛠️ Preparando o Portugol Studio 🛠️
 Nossa ferramenta para programar será o Portugol Studio, ele é um editor de texto especial para essa língua.
 
-Há duas formas de utilizar ele:
+Há duas formas de acessar:
 
-### **🖱️ Utilizando pela internet**
+### **💡 Pela internet**
 
 -📢 Pesquise na Google por "Portugol Online"
 
@@ -38,13 +38,13 @@ Há duas formas de utilizar ele:
 
 <img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="50%">
 
--📢 Pronto, você está na interface principal do Portugol WebStudio!
+-📢 **Pronto, você está na interface principal do Portugol WebStudio!**
 
 <img align="center" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
 
+***
 
-
-### **🖱️ Baixando e instalando**
+### **💡 Baixando e instalando**
 
 -📢 Pesquise na Google por "Portugol"
 
@@ -58,9 +58,13 @@ Há duas formas de utilizar ele:
 
 -📢 Siga o passo-a-passo de instalação do Portugol
 
-<div align="center">
+<div align="left">
   <a href="https://www.youtube.com/watch?v=ClaMn-xn02M" target="_blank"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="Vídeo de instalação"></a>
 </div>
+
+-📢 **Pronto! Você chegou na interface do Portugol**
+
+<img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio" width="60%">
 
 ## Gerenciando arquivos
 [ATUALIZAR]
