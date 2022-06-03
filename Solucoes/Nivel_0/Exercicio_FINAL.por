@@ -1,27 +1,14 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 01/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
  
     =================== Nível 0 - Exercício FINAL ====================
 
-    Para finalizar esse nível, o exercício será um pequeno dever de casa:
-
-    Vá na interface inicial do Portugol e clique no botão "Ajuda"
-    Vá em => Linguagem Portugol => Tipos
-
-    Leia um pouco sobre os tipos de dados que o Portugol aceita, as famosas
-    Variáveis que tanto se fala nas linguagens de programação.
-
-    Explore um pouco, experimente, divirta-se!
-
-    Na pasta SOLUÇÕES, desse exercício aqui, você verá exemplos de cada
-    tipo de variável, com anotações sobre cada uma.
+    => Vá na interface inicial do Portugol e clique no botão "Ajuda"
+    => Vá em => Linguagem Portugol => Tipos
+    => Leia um pouco sobre os tipos de dados que o Portugol aceita
+    => Experimente eles, divirta-se!
     
     ==================================================================
 */
@@ -33,8 +20,11 @@ programa
 
 	// EXEMPLOS DE USO DOS DIFERENTES TIPOS DE DADOS
 
-	// CARACTER = somente uma letra ou número, entendido aqui como letra
-	// Não é muito utilizado, porém ajudará quando chegar em "Matrizes"
+	/*
+	   	CARACTER = somente uma letra ou número, entendido aqui como letra
+	   	Não é muito utilizado, porém ajudará quando chegar em "Matrizes"
+	*/
+	
 	caracter letra
 
 	escreva("[CARACTER]\n")
@@ -43,9 +33,13 @@ programa
 	escreva("Eu não gosto da letra ", letra, "prefiro a letra S\n")
 	separador()
 
+// =====================================================================
 
-	// CADEIA = uma palavra inteira ou conjunto de palavras
-	// Em outras linguagens normalmente é chamado de "STRING"
+	/* 
+		CADEIA = uma palavra inteira ou conjunto de palavras
+		Em outras linguagens normalmente é chamado de "STRING"
+	*/
+
 	cadeia palavra
 
 	escreva("[CADEIA]\n")
@@ -54,8 +48,10 @@ programa
 	escreva(palavra, "! Que nome engraçado, que tal NEONCAT?\n")
 	separador()
 
+// =====================================================================
 
 	// INTEIRO = um número inteiro, sem casas decimais
+
 	inteiro idade
 
 	escreva("[INTEIRO]\n")
@@ -64,8 +60,16 @@ programa
 	escreva("Nossa! Ele tem mesmo ",idade," anos?\n")
 	separador()
 
+// =====================================================================
 
-	// REAL = um número com casas decimais
+	/*
+		REAL = um número com casas decimais
+		ATENÇÃO: Em Portugol, e na maioria das linguagens, o decimal fica
+		depois do ponto ".", não é utilizada a vírgula "," em números.
+
+		Ex.: R$ 1.215,17  ==  1215.17
+	*/
+
 	real preco_da_passagem
 	
 	escreva("[REAL]\n")
@@ -74,9 +78,17 @@ programa
 	escreva("Cuidado, ela pode aumentar em 50 centavos!\n")
 	separador()
 
+// =====================================================================
 
-	// LÓGICO = representa um valor verdadeiro OU falso, muito utilizado para comparar as coisas
-	// Será muito útil quando entrar na parte de "Desvio Condicional"
+	/*
+		LÓGICO = representa um valor verdadeiro OU falso, muito utilizado
+		para comparar duas coisas entre si.
+		Será muito útil quando entrar na parte de "Desvio Condicional"
+
+		Ex.: (Carro == Moto) == FALSO
+			 (Ferrari == Carro + Luxo) == VERDADEIRO 
+	*/ 
+
 	logico maior_que_stallone
 	real altura_stallone = 1.81, altura_usuario
 	
@@ -85,18 +97,26 @@ programa
 	
 	leia(altura_usuario)
 	
-	se(altura_usuario >= altura_stallone){
+	se(altura_usuario >= altura_stallone)
+	{
 		escreva("Você é mais alto que Stallone!\n")	
 		
 	} senao {
+
 		escreva("Você é mais alto que um pônei!\n")
-		
+
 	}
 	}
 
-	// VAZIO = refere-se a um tipo especial de valor, aplicado às funções
-	// Esse valor significa que ao executar a função, ela não deverá ter
-	// um resultado a retornar, mas sim fazer o que precisa e finalizar.
+// =====================================================================
+
+	/*
+		VAZIO = refere-se a um tipo especial de valor, aplicado às funções
+		Esse valor significa que ao executar a função, ela não deverá ter
+	 	um resultado a retornar, mas sim fazer o que precisa e finalizar.
+
+		Esse tipo de elemento será matéria do Nível 5
+	*/
 	
 	funcao vazio separador()
 	{

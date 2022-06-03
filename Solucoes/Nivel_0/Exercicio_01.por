@@ -1,21 +1,11 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
 
-    Atualizado em: 01/06/2022
- 
     ===================== Nível 0 - Exercício 01 =====================
 
-    Bem vindo ao Portugol! Para começar, nada melhor que a primeira 
-    coisa que todo(a) desenvolvedor(a) deve fazer:
-    
-    Escreva um programa que mostre a mensagem "Olá Mundo!"
-
-    Dica: Escrever os resultados é sempre importante!
+    => Escreva um algoritmo que mostre a mensagem "Olá Mundo!"
     
     ==================================================================
 */
@@ -28,7 +18,7 @@ programa
 	escreva("Olá Mundo!")
 
     // O comando "escreva()" é muito importante para saber o que está acontecendo
-    // busque usar ele quando quiser visualizar algum resultado
+    // Busque usar ele quando quiser visualizar algum resultado
 				
 	}
 }

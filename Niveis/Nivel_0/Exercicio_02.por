@@ -1,24 +1,17 @@
 /*
-    ========================== Informações ===========================
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
     
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 01/06/2022
- 
     ===================== Nível 0 - Exercício 02 =====================
 
-    Além de mostrar na tela, é importante saber o que o usuário quer,
+    Além de mostrar o resultado, é importante saber o que o usuário quer,
     vamos perguntar a ele?
     
-    Escreva um programa que pergunte o nome do usuário e então responda:
-    "Bem vindo à programação, [NOME]"
+    => Escreva um algoritmo que pergunte o NOME do usuário.
+    => Mostre no resultado: "Bem-vindo ao Portugol, [NOME]"
     
-    Exemplo: "Bem vindo à programação, Stallone!"
-
-    Dica: Além de saber escrever, é importante saber LER e salvar!
+    Exemplo: "Bem-vindo ao Portugol, Stallone!"
     
     ==================================================================
 */

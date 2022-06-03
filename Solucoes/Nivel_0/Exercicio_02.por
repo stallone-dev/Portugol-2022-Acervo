@@ -1,25 +1,13 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
 
-    Atualizado em: 01/06/2022
- 
     ===================== Nível 0 - Exercício 02 =====================
 
-    Além de mostrar na tela, é importante saber o que o usuário quer,
-    vamos perguntar a ele?
-    
-    Escreva um programa que pergunte o nome do usuário e então responda:
-    "Bem vindo à programação, [NOME]"
-    
-    Exemplo: "Bem vindo à programação, Stallone!"
+    => Escreva um algoritmo que pergunte o NOME do usuário.
+    => Mostre no resultado: "Bem-vindo ao Portugol, [NOME]"
 
-    Dica: Além de saber escrever, é importante saber LER e salvar!
-    
     ==================================================================
 */
 
@@ -28,17 +16,24 @@ programa
 	funcao inicio() 
 	{
     
-    // Esta coisinha abaixo é uma variável, representa um local dentro do código
-    // onde será guardado uma informação. No caso, este lugar está sendo chamado
-    // de "nome" e o tipo de lugar que isso ocupa é uma "cadeia", que acomoda
-    // uma palavra ou um texto.
+    /* 
+       Esta coisinha abaixo é uma VARIÁVEL, representa um local dentro do código
+       onde será guardado uma informação. No caso, este lugar está sendo chamado
+       de "nome" e o tipo de lugar que isso ocupa é "CADEIA", que pode receber
+       palavras ou textos inteiros.
+    */
 
 	cadeia nome
 	
 	escreva("Qual o seu nome? ")
 	leia(nome)
 	
-	escreva("Bem vindo à programação, ",nome,"!")
+	escreva("Bem-vindo ao Portugol, ",nome,"!")
+
+    // Você pode colocar a variável no "escreva()" spearando-a do texto original 
+    // através de uma vírgula ","
+
+    // Por exemplo: escreva("TEXTO-TEXTO", variável, "TEXTO-TEXTO")
 			
 	}
 }

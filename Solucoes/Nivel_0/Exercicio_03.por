@@ -1,25 +1,13 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 01/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
  
     ===================== Nível 0 - Exercício 03 =====================
 
-    Vamos potencializar o "escreva()":
-    
-    Escreva um programa que pergunte o nome, idade e sabor favorito
-    Depois, mostre a seguinte mensagem na tela:
-    
-    "[NOME] tem [IDADE] anos e adora o sabor de [SABOR]!"
-    
-    Exemplo: "Stallone tem 22 anos e adora o sabor de sorvete!"
-
-    Dica: Atenção às variáveis!
+    => Escreva um algoritmo que pergunte o nome, idade e sabor favorito
+    => Mostre a seguinte mensagem na tela:
+    => "[NOME] tem [IDADE] anos e adora o sabor de [SABOR]!"
     
     ==================================================================
 */
@@ -29,8 +17,14 @@ programa
 	funcao inicio() 
 	{
 
-	// Cada tipo de informação tem uma variável diferente,
-	// Você pode declarar mais de uma variável de uma vez, usando a ","
+	/*
+	   Cada TIPO de informação tem uma variável diferente,
+	   		Números inteiros são do tipo INTEIRO
+			Números reais são do tipo REAL
+			Palavras são do tipo CADEIA
+			Letras são do tipo CARACTER
+	   Você pode declarar mais de uma variável do mesmo tipo separando-as por ","
+	*/
 	
 	cadeia nome, sabor
 	inteiro idade
