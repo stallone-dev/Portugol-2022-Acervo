@@ -26,28 +26,40 @@ Nossa ferramenta para programar será o Portugol Studio, ele é um editor de tex
 
 Há duas formas de utilizar ele:
 
-### **Utilizando pela internet**
+### **🖱️ Utilizando pela internet**
 
--A Pesquise na Google por "Portugol Online"
+-📢 Pesquise na Google por "Portugol Online"
 
--A Acesse o link que leva para "[Portugol Webstudio - IDE](https://portugol-webstudio.cubos.io/)"
+-📢 Acesse o link que leva para "[Portugol Webstudio - IDE](https://portugol-webstudio.cubos.io/)"
 
 ![PortugolWeb Google](/z_imagens/PortugolGoogle.png)
 
--A Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
+-📢 Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
 
 <img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="50%">
 
--A Pronto, você está na interface principal do Portugol WebStudio!
+-📢 Pronto, você está na interface principal do Portugol WebStudio!
+
+<img align="center" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
 
 
+### **🖱️ Baixando e instalando**
 
+-📢 Pesquise na Google por "Portugol"
 
-### **Baixando e instalando**
+-📢 Acesse a página oficial do [Portugol Studio](https://portugol-webstudio.cubos.io/ide)
+
+-📢 Vá em "Download" e baixe o instalador do Portugol
+
+-📢 Siga o passo-a-passo de instalação do Portugol
+
+<video height="180em" controls>
+  <source src="https://www.youtube.com/watch?v=ClaMn-xn02M" type="video/mp4">
+</video>
 
 ## Gerenciando arquivos
 [ATUALIZAR]
 
 ## Primeiras linhas de código
 
-## Comandos básicos
+## Comandos básicos 
