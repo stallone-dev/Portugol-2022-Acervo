@@ -26,7 +26,9 @@ Nossa ferramenta para programar será o Portugol Studio, ele é um editor de tex
 
 Há duas formas de acessar:
 
-### **💡 Pela internet**
+<details>
+<summary><h3><strong>💡 Pela internet (clicke para mostrar)</strong></h3></summary>
+<blockquote>
 
 -📢 Pesquise na Google por "Portugol Online"
 
@@ -42,7 +44,8 @@ Há duas formas de acessar:
 
 <img align="center" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
 
-***
+</blockquote>
+</details>
 
 ### **💡 Baixando e instalando**
 
