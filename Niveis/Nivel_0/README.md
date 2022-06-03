@@ -55,6 +55,8 @@ Há duas formas de utilizar ele:
 
 [![Vídeo de instalação](/z_imagens/VideoInstalacao.png)](https://www.youtube.com/watch?v=ClaMn-xn02M)
 
+<iframe width="720" height="405" src="https://www.youtube.com/embed/MUQfKFzIOeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Gerenciando arquivos
 [ATUALIZAR]
 
