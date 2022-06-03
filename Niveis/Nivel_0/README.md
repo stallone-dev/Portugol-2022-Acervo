@@ -54,7 +54,7 @@ Há duas formas de utilizar ele:
 -📢 Siga o passo-a-passo de instalação do Portugol
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=ClaMn-xn02M"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="Vídeo de instalação"></a>
+  <a href="https://www.youtube.com/watch?v=ClaMn-xn02M" target="_blank"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="Vídeo de instalação"></a>
 </div>
 
 ## Gerenciando arquivos
