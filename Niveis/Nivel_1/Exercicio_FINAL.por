@@ -1,37 +1,29 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 01/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
  
     =================== Nível 1 - Exercício FINAL ====================
 
-    Agora que chegou ao fim do nível 1, está na hora de fazer um último
-    desafio aritmético:
+    Com toda essa experiência aritmética em mãos, eis o exercício final:
     
-    Imaginando que um fumante perde, em média, 30 min de vida a cada 
-    cigarro fumado, pergunte ao usuário quantos anos ele têm, quantos
-    cigaros fuma por dia e há quantos anos ele fuma.
+    =>  Imagine que você decidiu viajar de férias para a Portugal. Para isso
+        você comprou as passagens de ida e volta, alugou um carro por 2 
+        semanas e um hotel pelo mesmo tempo.
+    
+    => Considere que os seus custos foram: 
+		    => Cada passagem  = 579 euros
+		    => 1 dia de hotel = 80  euros
+		    => 1 dia de carro = 9.8 euros
+    
+    =>  Considerando que a compra de tudo isso foi feita na mesma agência
+        e ela deu um desconto de 22% no preço final, quanto, EM REAIS, vai 
+        custar sua viagem de 2 semanas?
 
-    Calcule quanto tempo de vida ele perdeu até então em:
-		-- Anos
-		-- Meses
-		-- Semanas
-		-- Dias
-    Cada um separadamente, de modo que tanto apareça 1 ano quanto 12 meses
+    => Mostre o valor total original, o desconto e o valor final, EM REAIS.
+        => Arredonde os valores para 2º casa decimal
 
-    Mostre na tela o resultado final, arredondado para 2º casa decimal e tabelado.
-
-	Dica: Antes de pensar na conversão, é interessante 
-		 pensar em como chegar numa medida precisa de tempo
-		 para poder começar.
-		 
-		 Lembre-se de impotar a biblioteca necessária para
-		 arredondar os valores.
+    Dica: Quanto está a cotação do Euro?
     
     ==================================================================
 */

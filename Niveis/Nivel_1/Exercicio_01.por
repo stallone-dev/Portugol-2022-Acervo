@@ -15,7 +15,7 @@
 	    => 3 - Multiplique um pelo outro
 	    => 4 - Divida o primeiro pelo segundo
 
-    => Utilize o comando "limpa()" para limpar os resultados.
+    => Utilize o comando "limpa()" para limpar os resultados anteriores.
 
     => Mostre no resultado a seguinte mensagem:
         => "Resultados:"
@@ -24,7 +24,7 @@
         => "[num1] x [num2] = [resposta]"
         => "[num1] / [num2] = [resposta]"
 
-    Dica: A divisão sempre vai dar um número inteiro?
+    Dica: A divisão sempre vai dar um número INTEIRO?
     
     ==================================================================
 */

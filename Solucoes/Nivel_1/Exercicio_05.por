@@ -1,71 +1,77 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 02/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
  
     ===================== Nível 1 - Exercício 05 =====================
 
-    Já percebeu como os resultados têm saído cheio de casas decimais?
-    Por exemplo: Desconto em reais = R$ 2709.8543999999997
+    => Escreva um algoritmo que calcule a área de uma parede (m²).
+        => Calcule quantas latas de tinta serão necessários
+            => Considere que 1 lata rende 25m²
+        => Calcule quanto, em reais (R$), custará essa pintura
+            => Pergunte o preço da lata
 
-    Não é muito bonito ver um resultado assim, acaba poluindo muito
-    a tela do usuário. Para resolver isso, vamos dar um pulinho na
-    biblioteca de matemática e pegar o comando "arredondar"
-
-    Sua missão é: 
-    		-- Visite a página de "Ajuda" do Portugol
-    		-- Vá em Linguagem Portugol => Bibliotecas
-    		-- Leia sobre como incluir bibliotecas
-    		-- Inclua a biblioteca Matemática e dê o apelido de " Mat "
-    		
-    Com a biblioteca incluída, experimente arredondar valores reais!
-    Se estiver com o apelido " Mat ", o comando será: 
-
-    		Mat.arredondar([valor_real], [casas_decimais])
-
-    	Exemplo: 	 Mat.arredondar( 2709.8543999999997, 2)
-    	Resultado: " 2709.85 "
+    => Mostre para o usuário:
+        => Quantos m² tem de área
+        => Quantas latas de tinta precisará (Pode ter decimais)
+        => Quanto custará a pintura
     
     ==================================================================
 */
 
 programa 
-{	
-	// Geralmente a biblioteca é incluída aqui, logo no começo do programa
-	inclua biblioteca Matematica --> Mat
-	
+{
+    inclua biblioteca Matematica --> Mat
+
 	funcao inicio() 
 	{
 
-	real valor1, valor2, divisao, resultado_arredondado
-	inteiro casas_decimais
+        /*
+            Os objetivos aqui serão:
+                -- Receber do usuário uma ALTURA e uma LARGURA
+                -- Converter em m²
+                -- Calcular quantas lantas de tinta precisará e o valor total
+        */
 
-	escreva("Qual o valor 1? ")
-	leia(valor1)
-
-	escreva("Qual o valor 2? ")
-	leia(valor2)
-
-	divisao = valor1 / valor2
+        // Declarando variáveis
+        real altura, largura, preco_lata, rendimento_lata
+        
+        real area, latas_necessarias, preco_total_pintura
 
 
-	escreva("Quantas casas decimais você quer ver? ")
-	leia(casas_decimais)
+        // Perguntando ao usuário
+        escreva("Qual a altura da parede em metros?" )
+        leia(altura)
 
-	resultado_arredondado = Mat.arredondar(divisao, casas_decimais)
+        escreva("Qual a largura da parede em metros? ")
+        leia(largura)
 
-	/*
-	  Ao utilizar a biblioteca "Matematica.arredondar()" estamos definindo 
-	  um novo valor em vez de algo somente visual, caso algo seja calculado
-	  utilizando esse valor arredondado, terá um resultado levemente diferente do normal.
-	*/
+        escreva("Quanto é uma lata de tinta? ")
+        leia(preco_lata)
 
-	escreva("\n",valor1, " / ", valor2, " = ",resultado_arredondado)
-		
+
+        // Calculando valores
+        rendimento_lata = 25
+
+        area = largura * altura        
+
+        latas_necessarias = area / rendimento_lata
+
+        preco_total_pintura = latas_necessarias * preco_lata
+
+
+        // Exibindo o resultado
+        limpa()
+
+        escreva("A parede tem ", Mat.arredondar(area,2) , " m² \n")
+        escreva("O preço final do material será: R$ ", Mat.arredondar(preco_total_pintura,2) , "\n\n")
+
+        escreva("Detalhes:\n")
+        escreva("\tÁrea \t\t\t\t = ", Mat.arredondar(area,2) ,"\n")
+        escreva("\tRendimento da lata \t = ", Mat.arredondar(rendimento_lata,2) ,"\n")
+        escreva("\tLatas necessárias \t = ", Mat.arredondar(latas_necessarias,2) ,"\n")
+        escreva("\tPreço da lata \t\t = ", preco_lata ,"\n")
+        escreva("\tPreço final \t\t = ", Mat.arredondar(preco_total_pintura,2) ,"\n")
+
 	}
 }

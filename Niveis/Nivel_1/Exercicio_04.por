@@ -1,43 +1,35 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 01/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
  
     ===================== Nível 1 - Exercício 04 =====================
 
-    Agora que você têm mais esperiência aritmética, vamos tentar um
-    cenário real, útil e normalmente um pouco complicado:
-    
-    Imagine que você decidiu viajar de férias para a Portugal. Para isso
-    você comprou as passagens de ida e volta, alugou um carro por 2 semanas 
-    e um hotel pelo mesmo tempo.
-    
-    Considere que os seus custos foram: 
-		Cada passagem  = 579 euros
-		1 dia de hotel = 80  euros
-		1 dia de carro = 9.8 euros
-    
-    Considerando que a compra de tudo isso foi feita na mesma agência
-    e ela deu um desconto de 22% no preço final, quanto, EM REAIS, vai 
-    custar sua viagem de 2 semanas?
+    Já percebeu como os resultados têm saído cheio de casas decimais?
+    Por exemplo: R$ 23,00 = 4,801670146137787 Dólares
 
-    Mostre na tela o valor total original, o desconto e o valor final, EM REAIS.
+    Não é muito elegante ver um resultado assim, acaba poluindo o
+    resultado. Para resolver isso, vamos dar um pulinho na biblioteca 
+    de matemática para usar o comando "arredondar".
 
-    Dica: Quanto está a cotação do Euro?
-    		Etapas são sempre bem-vindas.
+    => Sua missão é: 
+        => Visite a página de "Ajuda" do Portugol
+    	=> Vá em Linguagem Portugol => Bibliotecas
+    	=> Leia sobre como incluir bibliotecas
+    	=> Inclua a biblioteca Matemática
+            => Se quiser, atribua o apelido de " Mat "
+
+    => Mostre o resultado do Exercicio_03 arredondado.
+    
+    Dica: Matematica.arredondar([valor_real], [casas_decimais])
     
     ==================================================================
 */
 
 programa 
-{
+{	
 	funcao inicio() 
 	{
-
+		
 	}
 }

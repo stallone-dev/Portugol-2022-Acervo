@@ -1,101 +1,92 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 01/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 03/06/22
  
     =================== Nível 1 - Exercício FINAL ====================
 
-    Agora que chegou ao fim do nível 1, está na hora de fazer um último
-    desafio aritmético:
+    =>  Imagine que você decidiu viajar de férias para a Portugal. Para isso
+        você comprou as passagens de ida e volta, alugou um carro por 2 
+        semanas e um hotel pelo mesmo tempo.
     
-    Imaginando que um fumante perde, em média, 30 min de vida a cada 
-    cigarro fumado, pergunte ao usuário quantos anos ele têm, quantos
-    cigaros fuma por dia e há quantos anos ele fuma.
+    => Considere que os seus custos foram: 
+		    => Cada passagem  = 579 euros
+		    => 1 dia de hotel = 80  euros
+		    => 1 dia de carro = 9.8 euros
+    
+    =>  Considerando que a compra de tudo isso foi feita na mesma agência
+        e ela deu um desconto de 22% no preço final, quanto, EM REAIS, vai 
+        custar sua viagem de 2 semanas?
 
-    Calcule quanto tempo de vida ele perdeu até então em:
-		-- anos
-		-- meses
-		-- semanas
-		-- dias
-    Cada um separadamente, de modo que tanto apareça 1 ano quanto 12 meses
-
-    Mostre na tela o resultado final, arredondado para 2º casa decimal e tabelado.
-
-	Dica: Antes de pensar na conversão, é interessante 
-		 pensar em como chegar numa medida precisa de tempo
-		 para poder começar.
-		 Lembre-se de impotar a biblioteca necessária para
-		 arredondar os valores.
+    => Mostre o valor total original, o desconto e o valor final, EM REAIS.
+      	=> Arredonde os valores para 2º casa decimal
     
     ==================================================================
 */
 
 programa 
 {
-	inclua biblioteca Matematica --> Mat
-	
 	funcao inicio() 
 	{
 
 	/*
-	  Para concluir este último desafio, vamos aplicar os conhecimentos
-	  obtidos até aqui.
-
-	  Desta vez, a estratégia será representada de um jeito diferente:
-	  Em vez de passos, serão definidos objetivos a serem concluídos.
-	  
-	  Tendo isso dito, os objetivos são:
-	  	-- Transformar a entrada em uma medidade tempo
-	  	-- Converter esse valor-base nas medidas de tempo desejadas
-	  	-- Exibir para o usuário o resultado, de forma tabelada e arredondada
+		Mais uma vez, será utilizada a estratégia de grupos:
+			-- Declarar grupos de variáveis:
+				-- Um grupo de valores p/unidade
+				-- Um grupo de valores totais
+				-- Um grupo de montante e desconto
+				-- Um grupo de resultados e conversões
+			-- Calcular cada conversão separadamente
+			-- Exibir os resultados de forma tabulada
 	*/
 
-	// Grupo de variáveis
-	inteiro idade_atual, cigarros_por_dia, idade_quando_comecou
+	// Grupos de variáveis
+	real dia_hotel, dia_carro, passagem
 	
-	inteiro total_cigarros_fumados, tempo_base
+	real total_hotel, total_carro, total_passagem
+
+	real montante_total, desconto, montante_com_desconto
 	
-	real tempo_em_dias, tempo_em_semanas, tempo_em_meses, tempo_em_anos
+	real cota_euro, montante_em_reais, desconto_em_reais, montante_com_desconto_em_reais
 
 
-	// Perguntas para o usuário
-	escreva("Quantos anos você tem? ")
-	leia(idade_atual)
+	// Declarando valores iniciais
+	dia_hotel = 80.0
+	dia_carro = 9.8
+	passagem  = 579.0
 
-	escreva("Quantos cigarros você fuma por dia, em média? ")
-	leia(cigarros_por_dia)
-
-	escreva("Quantos anos tinha quando começou a fumar? ")
-	leia(idade_quando_comecou)
+	total_hotel 	= dia_hotel * 14
+	total_carro 	= dia_carro * 14
+	total_passagem 	= passagem  * 2
 
 
-	// Convertendo entradas em um valor de tempo-base
-	total_cigarros_fumados = (idade_atual - idade_quando_comecou) * 365 * cigarros_por_dia
+	// Calculando o montante e o desconto
+	montante_total = total_hotel + total_carro + total_passagem
+
+	desconto 	= (22.0/100.0) // O valor " 22% " será melhor compreendido se calculado assim
 	
-	tempo_base = total_cigarros_fumados / 2  // Cada cigarro = 30 min * 2 = 1h
+	montante_com_desconto = montante_total * (1 - desconto)
 
 
-	// Convertendo o valor de tempo-base nas medidas desejadas
-	tempo_em_dias 		= tempo_base 		/ 24.0
-	tempo_em_semanas 	= tempo_em_dias 	/ 7
-	tempo_em_meses		= tempo_em_semanas 	/ 4
-	tempo_em_anos		= tempo_em_meses 	/ 12
+	// Convertendo valores
+	cota_euro = 5.1
+	
+	montante_em_reais = montante_total * cota_euro
+	desconto_em_reais = (montante_total * desconto) * cota_euro
+
+	montante_com_desconto_em_reais = montante_com_desconto * cota_euro
 
 
-	// Mostrando o resultado
-	limpa()
-	escreva("Segundo nossa caluladora especial, você perdeu até então: \n")
-	escreva("\t- ", Mat.arredondar(tempo_em_anos,2),    " anos de vida!\n")
-	escreva("\t- ", Mat.arredondar(tempo_em_meses,2),   " meses de vida!\n")
-	escreva("\t- ", Mat.arredondar(tempo_em_semanas,2), " semanas de vida!\n")
-	escreva("\t- ", Mat.arredondar(tempo_em_dias,2), 	  " dias de vida!\n")
+	// Exibindo os resultados
+	escreva("O valor da viagem em reais será: R$ ",montante_com_desconto_em_reais,"\n\n")
 
-	escreva("Tudo isso por fumar cigarros! Uau!\n") 
+	escreva("Detalhes:\n")
+	
+	escreva("Total em Reais sem desconto: \tR$ ", montante_em_reais, "\n")
+	
+	escreva("Desconto em Reais: \t\tR$ ", desconto_em_reais, "\n")
+	
+	escreva("Total em Reais com desconto: \tR$ ",montante_com_desconto_em_reais,"\n")
 		
 	}
 }
