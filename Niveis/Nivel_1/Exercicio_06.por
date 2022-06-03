@@ -5,7 +5,7 @@
  
     ===================== Nível 1 - Exercício 06 =====================
 
-    Vamos praticar mais as conversões:
+    Vamos intensificar mais as conversões:
     
     => Escreva um algoritmo que calcule a área de uma parede (m²).
         => Calcule quantas latas de tinta serão necessários.

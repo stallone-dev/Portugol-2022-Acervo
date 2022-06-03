@@ -5,16 +5,13 @@
  
     ===================== Nível 1 - Exercício 05 =====================
 
-    => Escreva um algoritmo que calcule a área de uma parede (m²).
-        => Calcule quantas latas de tinta serão necessários
-            => Considere que 1 lata rende 25m²
-        => Calcule quanto, em reais (R$), custará essa pintura
-            => Pergunte o preço da lata
+    => Escreva um algoritmo que calcule o salário de alguém com base em:
+        => Quanto é o salário-hora
+        => Quantas horas trabalha por dia
+            => Perguntar se teve hora-extra (total)
+        => Quantos dias trabalhou no mês
 
-    => Mostre para o usuário:
-        => Quantos m² tem de área
-        => Quantas latas de tinta precisará (Pode ter decimais)
-        => Quanto custará a pintura
+    => Mostre para o usuário o resultado final arredondado.
     
     ==================================================================
 */
@@ -27,51 +24,68 @@ programa
 	{
 
         /*
-            Os objetivos aqui serão:
-                -- Receber do usuário uma ALTURA e uma LARGURA
-                -- Converter em m²
-                -- Calcular quantas lantas de tinta precisará e o valor total
+            Aqui o nosso objetivo é:
+                -- Converter o dados de entrada em uma saída única e simples
+                -- Mostrar esse resultado de forma precisa com 2 casas decimais
         */
 
         // Declarando variáveis
-        real altura, largura, preco_lata, rendimento_lata
-        
-        real area, latas_necessarias, preco_total_pintura
+        inteiro dias_trabalhados, horas_diarias, horas_extras
+
+        real salario_hora, salario
 
 
         // Perguntando ao usuário
-        escreva("Qual a altura da parede em metros?" )
-        leia(altura)
-
-        escreva("Qual a largura da parede em metros? ")
-        leia(largura)
-
-        escreva("Quanto é uma lata de tinta? ")
-        leia(preco_lata)
-
-
-        // Calculando valores
-        rendimento_lata = 25
-
-        area = largura * altura        
-
-        latas_necessarias = area / rendimento_lata
-
-        preco_total_pintura = latas_necessarias * preco_lata
-
+        escreva("Vamos calcular o seu salário!\n\n")
+        
+        escreva("Quantos dias você trabalhou no mês? [Adicione os fins-de-semana também] ")
+        leia(dias_trabalhados)
+        
+        escreva("Quantas horas você trabalhou por dia? ")
+        leia(horas_diarias)
+    
+        escreva("Fez quantas horas-extras? ")
+        leia(horas_extras)
+        
+        escreva("Quanto vale o seu salário-hora? ")
+        leia(salario_hora)
+        
+        
+        // Calculando o resultado
+        salario = ( (dias_trabalhados * horas_diarias) + horas_extras ) * salario_hora
+        
 
         // Exibindo o resultado
         limpa()
+        escreva("Seu salário será: R$ ", Mat.arredondar(salario,2))
 
-        escreva("A parede tem ", Mat.arredondar(area,2) , " m² \n")
-        escreva("O preço final do material será: R$ ", Mat.arredondar(preco_total_pintura,2) , "\n\n")
-
-        escreva("Detalhes:\n")
-        escreva("\tÁrea \t\t\t\t = ", Mat.arredondar(area,2) ,"\n")
-        escreva("\tRendimento da lata \t = ", Mat.arredondar(rendimento_lata,2) ,"\n")
-        escreva("\tLatas necessárias \t = ", Mat.arredondar(latas_necessarias,2) ,"\n")
-        escreva("\tPreço da lata \t\t = ", preco_lata ,"\n")
-        escreva("\tPreço final \t\t = ", Mat.arredondar(preco_total_pintura,2) ,"\n")
+        /*
+            Observe no cálculo o uso dos parênteses " ( ) ": na prograamção, assim
+            como na matemática, eles representam uma ordem de prioridade na hora de
+            realizar o cálculo.
+            
+            Essa ordem de prioridade é do mais interno para o mais externo,
+            seguido da a ordem das operações [ * e / antes de + e - ]
+            
+            Se não usássemos os parênteses, aconteceria o seguinte:
+                => A * B + C * D
+                => (A * B) + (C * D)
+                
+                => 30 * 8 + 10 * 5.20
+                => (30 * 8) + (10 * 5.20)
+                => 240 + 52
+                => 292
+                
+            O que queremos aqui é:
+                => ((A * B) + C) * D
+                
+                => ((30 * 8) + 10) * 5.20
+                => (240 + 10) * 5.20
+                => 250 * 5.20
+                => 1300
+            
+            Receber R$ 292,00 no lugar de R$ 1300,00 não é muito agradável, concorda?
+        */
 
 	}
 }
