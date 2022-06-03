@@ -53,9 +53,9 @@ Há duas formas de utilizar ele:
 
 -📢 Siga o passo-a-passo de instalação do Portugol
 
-<video height="180em" controls>
-  <source src="https://www.youtube.com/watch?v=ClaMn-xn02M" type="video/mp4">
-</video>
+<iframe width="420" height="315"
+    src="https://www.youtube.com/embed/ClaMn-xn02M">
+</iframe>
 
 ## Gerenciando arquivos
 [ATUALIZAR]
