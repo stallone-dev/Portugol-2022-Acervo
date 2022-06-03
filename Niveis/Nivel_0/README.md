@@ -36,7 +36,7 @@ Há duas formas de utilizar ele:
 
 -A Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
 
-<img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="300px">
+<img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="50%">
 
 -A Pronto, você está na interface principal do Portugol WebStudio!
 
