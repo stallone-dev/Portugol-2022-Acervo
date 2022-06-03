@@ -70,9 +70,9 @@ Para acessá-lo, podemos usar um desses métodos:
 
 <img align="center" src="/z_imagens/Portugol%20Oficial%20Download.png" width="50%" alt="Interface do PortugolWeb">
 
--📢 Siga o passo-a-passo de instalação do Portugol
+-📢 Siga o passo-a-passo de instalação do Portugol (APERTE NO VÍDEO)
 
-<div align="left">
+<div align="center">
   <a href="https://www.youtube.com/watch?v=ClaMn-xn02M" target="_blank"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="Vídeo de instalação"></a>
 </div>
 
