@@ -76,7 +76,7 @@ programa
 	escreva("\t- ", Mat.arredondar(tempo_em_anos,2),    " anos de vida!\n")
 	escreva("\t- ", Mat.arredondar(tempo_em_meses,2),   " meses de vida!\n")
 	escreva("\t- ", Mat.arredondar(tempo_em_semanas,2), " semanas de vida!\n")
-	escreva("\t- ", Mat.arredondar(tempo_em_dias,2), 	  " dias de vida!\n")
+	escreva("\t- ", Mat.arredondar(tempo_em_dias,2), 	" dias de vida!\n")
 
 	escreva("Tudo isso por fumar cigarros! Uau!\n") 
 		

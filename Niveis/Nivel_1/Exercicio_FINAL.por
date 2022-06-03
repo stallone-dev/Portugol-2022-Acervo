@@ -21,7 +21,7 @@
         custar sua viagem de 2 semanas?
 
     => Mostre o valor total original, o desconto e o valor final, EM REAIS.
-        => Arredonde os valores para 2º casa decimal
+        => Arredonde os valores para 2º casa decimal e tabule-os.
 
     Dica: Quanto está a cotação do Euro?
     
