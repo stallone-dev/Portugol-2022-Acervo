@@ -53,7 +53,7 @@ Há duas formas de utilizar ele:
 
 -📢 Vá em "Download" e baixe o instalador do Portugol
 
-<img align="left" src="/z_imagens/Portugol%20Oficial%20Download.png" width="50%" alt="Interface do PortugolWeb">
+<img align="center" src="/z_imagens/Portugol%20Oficial%20Download.png" width="50%" alt="Interface do PortugolWeb">
 
 -📢 Siga o passo-a-passo de instalação do Portugol
 
