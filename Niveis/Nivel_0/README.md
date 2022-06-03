@@ -12,7 +12,7 @@ Nestes primeiros passos, você aprenderá:
 
 * [Como instalar o Portugol Studio](#preparando-o-portugol-studio)
 * [Como criar e salvar arquivos](#gerenciando-arquivos)
-* [Primeiro código](#primeiras-linhas-de-código)
+* [Primeiros passos](#primeiros-passos)
 * [Comandos básicos](#comandos-básicos)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
@@ -22,12 +22,18 @@ de uma receita de bolo de diferentes tamanhos!
 Vamos lá!
 
 ## 🛠️ Preparando o Portugol Studio 🛠️
-Nossa ferramenta para programar será o Portugol Studio, ele é um editor de texto especial para essa língua.
+Para programar em Portugol é preciso um editor de texto especial, ele é chamado de "Portugol Studio".
 
-Há duas formas de acessar:
+<div align="center">
+<img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio" width="80%">
+</div>
+
+Com ele poderemos construir os códigos de forma mais simples e visual, bem como ter acesso rápido a um ótimo conjunto de exemplos e um guia de como funciona cada elemento.
+
+Vamos acessá-lo:
 
 <details>
-<summary><h3><strong>💡 Pela internet (clicke para mostrar)</strong></h3></summary>
+<summary><h3><strong>💡 Pela internet (Aperte para mostrar)</strong></h3></summary>
 <blockquote>
 
 -📢 Pesquise na Google por "Portugol Online"
@@ -38,7 +44,7 @@ Há duas formas de acessar:
 
 -📢 Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
 
-<img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="50%">
+<img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="40%">
 
 -📢 **Pronto, você está na interface principal do Portugol WebStudio!**
 
@@ -46,8 +52,9 @@ Há duas formas de acessar:
 
 </blockquote>
 </details>
+
 <details>
-<summary><h3><strong>💡 Baixando e instalando (clicke para mostrar)</strong></h3></summary>
+<summary><h3><strong>💡 Baixando e instalando (Aperte para mostrar)</strong></h3></summary>
 <blockquote>
 
 -📢 Pesquise na Google por "Portugol"
@@ -74,8 +81,10 @@ Há duas formas de acessar:
 </details>
 
 ## Gerenciando arquivos
-[ATUALIZAR]
+Agora que temos acesso ao Portugol Studio, vamos ver como iniciar, salvar e abrir um arquivo nesse editor!
 
-## Primeiras linhas de código
+
+
+## Primeiros passos
 
 ## Comandos básicos 
