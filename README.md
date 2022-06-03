@@ -1,6 +1,6 @@
 # Exercícios de Portugol - 2022
-![Licença utilizada](https://img.shields.io/github/license/stallone-dev/exercicios_portugol_2022?label=LICEN%C3%87A&style=for-the-badge)
-![Situação Geral](https://img.shields.io/badge/STATUS%20GERAL-Em%20andamento-yellow?style=for-the-badge)
+![Licença utilizada](https://img.shields.io/github/license/stallone-dev/exercicios_portugol_2022?label=LICEN%C3%87A&style=flat)
+![Situação Geral](https://img.shields.io/badge/STATUS%20GERAL-Em%20construção-orange?style=flat)
 
 Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado para o [Portugol Studio](http://lite.acad.univali.br/portugol/) de 2022. 
 
@@ -17,7 +17,8 @@ Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado 
 * [Nível EXTRA - Exercícios desatualizados](./Niveis/Questoes_Extras_DESATUALIZADO/)
 * [SOLUÇÕES - Stallone L.S.](./Solucoes/)
 
-***
+## O que vai encontrar aqui
+    [ATUALIZAR]
 
 ## 🏕️ Propósito
 Este repositório existe para ajudar novos desenvolvedores que queiram conhecer um pouco mais da Lógica de Programação. 
@@ -30,5 +31,11 @@ Para isso, os objetivos aqui estabelecidos são:
 * Exercícios intensos - Reservar poucos exercícios para cada nível, porém, com crescimento acelerado;
 * Soluções documentadas - Resolver cada exercício com estratégia explicada e com etapas demarcadas;
 
+## Por que Portugol?
+    [ATUALIZAR]
 
- ***
+## Como utilizar este repositório
+    [ATUALIZAR]
+
+## Como contribuir
+    [ATUALIZAR]
