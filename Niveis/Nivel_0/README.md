@@ -20,6 +20,8 @@ Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe 
 pequenos problemas no dia-a-dia, como fazer um cálculo tedioso ou ainda saber as medidas precisas 
 de uma receita de bolo de diferentes tamanhos!
 
+*É essa liberdade de construção que torna a programação tão divertida.*
+
 Vamos lá!
 
 ## 🛠️ Preparando o Portugol Studio 🛠️
