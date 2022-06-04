@@ -10,11 +10,10 @@ e ainda mostrar o resultado de seus códigos!
 
 Nestes primeiros passos, você aprenderá:
 
-* [Como instalar o Portugol Studio](#preparando-o-portugol-studio)
-* [Como criar e salvar arquivos](#gerenciando-arquivos)
-* [Primeiros passos](#primeiros-passos)
-* [Comandos básicos](#comandos-básicos)
+* [Como instalar o Portugol Studio](#🛠️-preparando-o-portugol-studio)
+* [Primeiros contatos](#🔰-primeiros-contatos)
 * [Como trabalhar os exercícios](#como-trabalhar-os-exercícios)
+* [Comandos básicos](#comandos-básicos)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
 pequenos problemas no dia-a-dia, como fazer um cálculo tedioso ou ainda saber as medidas precisas 
@@ -24,7 +23,7 @@ de uma receita de bolo de diferentes tamanhos!
 
 Vamos lá:
 
-## 🛠️ Preparando o Portugol Studio 🛠️
+## 🛠️ Preparando o Portugol Studio
 Para programar em Portugol é preciso um editor de texto especial, ele é chamado de "Portugol Studio".
 
 <div align="center">
@@ -36,8 +35,8 @@ Com ele poderemos construir os códigos de forma mais simples e visual, bem como
 Para acessá-lo, podemos usar um desses métodos:
 
 <details>
-<summary><h3><strong>💡 Pela internet (Aperte para mostrar)</strong></h3></summary>
-<blockquote>
+<summary><h3>💡 Pela internet (Aperte para mostrar)</h3></summary>
+<blockquote style="color:white;">
 
 -📢 Pesquise na Google por "Portugol Online"
 
@@ -57,7 +56,7 @@ Para acessá-lo, podemos usar um desses métodos:
 </details>
 
 <details>
-<summary><h3><strong>💡 Baixando e instalando (Aperte para mostrar)</strong></h3></summary>
+<summary><h3>💡 Baixando e instalando (Aperte para mostrar)</h3></summary>
 <blockquote>
 
 -📢 Pesquise na Google por "Portugol"
@@ -83,13 +82,22 @@ Para acessá-lo, podemos usar um desses métodos:
 </blockquote>
 </details>
 
-## Gerenciando arquivos
-Agora que temos acesso ao Portugol Studio, vamos ver como iniciar, salvar e abrir um arquivo nesse editor!
+## 🔰 Primeiros contatos
+Com acesso ao Portugol Studio, vamos ver como iniciar, salvar e abrir um arquivo nesse editor!
 
+![Botões de "Novo" e "Abrir arquivo"](/z_imagens/InterfaceArquivos.png)
 
+### Conhecendo a interface
+<blockquote>
+-
+</blockquote>
 
-## Primeiros passos
+### Botões utilitários
+<blockquote>
+testando
+</blockquote>
 
-## Comandos básicos 
+## Comandos básicos
 
 ## Como trabalhar os exercícios
+
