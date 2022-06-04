@@ -113,17 +113,112 @@ E conforme for estudando e tentando descobrir o que precisa, seu pensamento vai 
 Quando sentir que possui um bom plano de ação, estará mais ou menos assim:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final" width="60%">
+  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final">
 </div>
 
-Esses três fluxogramas representam os estados da minha mente conforme fui pensando nesse cenário hipotético. Essas etapas que viu representam a construção do Algoritmo: Se antes tinha um único grande problema, agora têm 4 sub-problemas com decisões e objetivos a cumprir, um de cada vez.
+Esses três fluxogramas representam os estados do problema. Essas etapas são a construção do Algoritmo. Se antes tinha um único grande problema, agora tem 4 sub-problemas com decisões e objetivos a cumprir, um de cada vez, visando a solução final.
 
-_**Ou melhor, agora há um Algoritmo de resolução.**_
-
-
-Mas, o que isso significa exatamente? Bem, toda programação parte da ideia de um 
+_**Ou melhor, agora se tem um Algoritmo de resolução.**_
 
 
+### 📌 Certo, mas, o que isso tem a ver com programação? 
+Programar nada mais é que dividir um problema inicial em passos lógicos, atacando um micro-problema por vez e entregando o resultado para a etapa seguinte e/ou para resolução do problema.
 
-## 📌 Como utilizar os exercícios
+**Em resumo, programar é fazer Algoritmos legíveis por humanos e máquinas!**
 
+Para fixar melhor, veja este vídeo aqui:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=iEVLDKOLgQk" target="_blank"><img src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] O que é Algoritmo? - GCFAprendeLivre"></a>
+</div>
+
+### 📌 Certo, certo, mas quando vou programar?
+Agora que sabe o conceito essencial, o que você preisa saber aqui, neste momento, é:
+
+No Portugol Studio, sempre que você criar um novo arquivo ele virá com esta estrutura padrão:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/EstruturaInicial.png" alt="Estrutura inicial do código">
+</div>
+
+Essa estrutura possui regiões, chamadas "escopos", sendo elas:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/EstruturaInicialMARCADA.png" alt="Estrutura inicial demarcada">
+</div>
+
+* VERMELHO  - Região onde o programa existe, nada funcionará fora dela
+* AMARELO   - Região onde se inclui Bibliotecas (Tema Nivel_01)
+* VERDE     - Região onde os códigos serão executados (Tema Nivel_05)
+* AZUL      - Código em si
+
+**Será na região AZUL que passaremos a maior parte do tempo construindo nossos Algoritmos.**
+
+Para mais detalhes, recomendo o vídeo abaixo:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=dtgHcIKjazA" target="_blank"><img src="https://img.youtube.com/vi/dtgHcIKjazA/0.jpg" alt="[VÍDEO] Aula 1 de Portugol - Popularizando o mundo da programação"></a>
+</div>
+
+### 📌 Mas e os comandos que preciso escrever?!
+Neste momento, você só precisa saber estes:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/ExemploComandos.png" alt="Exemplo inicial de código">
+</div>
+
+A primeira linha, em CINZA, é um comentário, o que estiver dentro dele será ignorado pelo programa. Deixar comentários ao longo do código é muito útil para descrever como algo funciona em detalhes.
+
+No Portugol, os comentários podem ser feitos de dois jeitos:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/Comentarios.png" alt="Formas de comentar o código">
+</div>
+
+
+A próxima linha possui dois elementos importantes:
+
+* Uma declaração de TIPO de dados, em AZUL 
+* Uma variável com o nome "palavra" em BRANCO
+
+Uma variável é um espaço dentro do código, uma vaga, que acomodará um VALOR que pode mudar ao longo do tempo. Se pensar em uma geladeira, um VALOR seria um refrigerante, um suco, uma bedida, equanto uma VARIÁVEL seria uma jarra de suco vazia.
+
+Em Portugol as variáveis precisam ser declaradas juntas ao TIPO DE DADOS que ela espera receber.
+
+Um TIPO DE DADOS, a palavra em AZUL, é uma forma de dizer ao programa qual é a natureza do VALOR que será recebido. Existem os seguintes tipos:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/TiposDADOS.png" alt="Tipos de dados - PORTUGOL">
+</div>
+
+Na próxima linha do código temos o comando _**"escreva()"**_, que mostrará nos resultados o que estiver dentro dele.
+
+* O comando "escreva()" pode receber variáveis, utilizando a "," fora das aspas para indicar que um novo elemento será inserido dentro dele.
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/Escreva2.png" alt="Comando ESCREVA - Multiplos exemplos">
+</div>
+
+Em seguida, temos o comando "leia()", ele abre uma janela de escrita na parte dos Resultados, onde o usuário pode escrever algo, no estilo responder a alguma pergunta.
+
+* Esse comando pode "ler" várias variáveis de uma vez, assim:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/Leia.png" alt="Comando LEIA - Multiplas entradas">
+</div>
+
+Assim, com esses elementos você vai construir a base de seus programas futuros, assim:
+
+<div align="center">
+  <img src="/z_imagens/Nivel_0/ExemploFinal.png" alt="Exemplo final de entradas e saídas">
+</div>
+
+### 📍 Caso precise de mais detalhes, recomendo os vídeo:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=VxDLGAisW4I" target="_blank"><img src="https://img.youtube.com/vi/VxDLGAisW4I/0.jpg" alt="[VÍDEO] Aula 2 de Portugol - Popularizando o mundo da programação"></a>
+  <a href="https://www.youtube.com/watch?v=1jpa8wy2C2I" target="_blank"><img src="https://img.youtube.com/vi/1jpa8wy2C2I/0.jpg" alt="[VÍDEO] Aula 3 de Portugol - Popularizando o mundo da programação"></a>
+</div>
+
+
+## [🚕 (VOLTAR AO TOPO) 🚕](#🚀-boas-vindas-ao-nível-0-🚀)
