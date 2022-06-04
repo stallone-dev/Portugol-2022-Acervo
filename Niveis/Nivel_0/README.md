@@ -131,7 +131,7 @@ Para fixar melhor, veja este vídeo aqui:
 </div>
 
 ### 📌 Certo, certo, mas quando vou programar?
-Agora que sabe o conceito essencial, o que você preisa saber aqui, neste momento, é:
+Agora que sabe o conceito essencial, o que você precisa saber aqui, neste momento, é:
 
 No Portugol Studio, sempre que você criar um novo arquivo ele virá com esta estrutura padrão:
 
@@ -174,7 +174,7 @@ No Portugol, os comentários podem ser feitos de dois jeitos:
 </div>
 
 
-A próxima linha possui dois elementos importantes:
+**A segunda linha possui dois elementos importantes:**
 
 * Uma declaração de TIPO de dados, em AZUL 
 * Uma variável com o nome "palavra" em BRANCO
@@ -183,13 +183,13 @@ Uma variável é um espaço dentro do código, uma vaga, que acomodará um VALOR
 
 Em Portugol as variáveis precisam ser declaradas juntas ao TIPO DE DADOS que ela espera receber.
 
-Um TIPO DE DADOS, a palavra em AZUL, é uma forma de dizer ao programa qual é a natureza do VALOR que será recebido. Existem os seguintes tipos:
+Um TIPO DE DADOS, a palavra em AZUL, é uma forma de dizer ao programa qual é a natureza do VALOR que será recebido e trabalhado ao longo do programa. Existem os seguintes tipos atualmente:
 
 <div align="center">
   <img src="/z_imagens/Nivel_0/TiposDADOS.png" alt="Tipos de dados - PORTUGOL">
 </div>
 
-Na próxima linha do código temos o comando _**"escreva()"**_, que mostrará nos resultados o que estiver dentro dele.
+**Na terceia linha do código temos o comando _"escreva()"_, que mostrará nos resultados o que estiver dentro dele.**
 
 * O comando "escreva()" pode receber variáveis, utilizando a "," fora das aspas para indicar que um novo elemento será inserido dentro dele.
 
@@ -205,13 +205,13 @@ Em seguida, temos o comando "leia()", ele abre uma janela de escrita na parte do
   <img src="/z_imagens/Nivel_0/Leia.png" alt="Comando LEIA - Multiplas entradas">
 </div>
 
-Assim, com esses elementos você vai construir a base de seus programas futuros, assim:
+**Assim, com esses elementos você vai construir a base de seus programas futuros:**
 
 <div align="center">
   <img src="/z_imagens/Nivel_0/ExemploFinal.png" alt="Exemplo final de entradas e saídas">
 </div>
 
-### 📍 Caso precise de mais detalhes, recomendo os vídeo:
+### 📍 Caso precise de mais detalhes, recomendo os vídeos:
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=VxDLGAisW4I" target="_blank"><img src="https://img.youtube.com/vi/VxDLGAisW4I/0.jpg" alt="[VÍDEO] Aula 2 de Portugol - Popularizando o mundo da programação"></a>
