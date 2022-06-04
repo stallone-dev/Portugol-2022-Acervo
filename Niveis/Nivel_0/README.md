@@ -101,19 +101,19 @@ Algoritmos nada mais são que passos lógicos, uma forma de dividir um problema 
 Pense, por exemplo, que você quer viajar para outro país. A princípio, você pensará isto:
 
 <div align="center">
-  <img src="/z_images/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial">
+  <img src="/z_imagens/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial">
 </div>
 
 E conforme for estudando e tentando descobrir o que precisa, seu pensamento vai se transfomando:
 
 <div align="center">
-  <img src="/z_images/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário">
+  <img src="/z_imagens/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário">
 </div>
 
 Quando sentir que possui um bom plano de ação, estará mais ou menos assim:
 
 <div align="center">
-  <img src="/z_images/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final">
+  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final">
 </div>
 
 _**PROGRAMAR É TRANSFORMAR UM PROBLEMA GRANDE EM VÁRIOS PEQUENOS**_
