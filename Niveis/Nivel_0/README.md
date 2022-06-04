@@ -11,9 +11,8 @@ e ainda mostrar o resultado de seus códigos!
 Nestes primeiros passos, você aprenderá:
 
 * [Como instalar o Portugol Studio](#🛠️-preparando-o-portugol-studio)
-* [Primeiros contatos](#🔰-primeiros-contatos)
-* [Como trabalhar os exercícios](#como-trabalhar-os-exercícios)
-* [Comandos básicos](#comandos-básicos)
+* [Ideias, conceitos e comandos iniciais](#✏️-conceitos-básicos)
+* [Como utilizar os exercícios](#📌-como-utilizar-os-exercícios)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
 pequenos problemas no dia-a-dia, como fazer um cálculo tedioso ou ainda saber as medidas precisas 
@@ -27,7 +26,7 @@ Vamos lá:
 Para programar em Portugol é preciso um editor de texto especial, ele é chamado de "Portugol Studio".
 
 <div align="center">
-<img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio">
+<img align="center" src="/z_imagens/Nivel_0/PortugolPC.png" alt="Interface do Portugol Studio">
 </div>
 
 Com ele poderemos construir os códigos de forma mais simples e visual, bem como ter acesso rápido a um ótimo conjunto de exemplos e um guia de como funciona cada elemento.
@@ -36,68 +35,92 @@ Para acessá-lo, podemos usar um desses métodos:
 
 <details>
 <summary><h3>💡 Pela internet (Aperte para mostrar)</h3></summary>
-<blockquote style="color:white;">
 
 -📢 Pesquise na Google por "Portugol Online"
 
 -📢 Acesse o link que leva para "[Portugol Webstudio - IDE](https://portugol-webstudio.cubos.io/)"
 
-![PortugolWeb Google](/z_imagens/PortugolGoogle.png)
+![PortugolWeb Google](/z_imagens/Nivel_0/PortugolGoogle.png)
 
 -📢 Começe a editar no [Portugol Webstudio](https://portugol-webstudio.cubos.io/ide)
 
-<img align="center" src="/z_imagens/PortugolWebLogo.png" alt="Portugol Web Logo" width="40%">
+<img align="center" src="/z_imagens/Nivel_0/PortugolWebLogo.png" alt="Portugol Web Logo" width="40%">
 
 -📢 **Pronto, você está na interface principal do Portugol WebStudio!**
 
-<img align="center" src="/z_imagens/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
+<img align="center" src="/z_imagens/Nivel_0/InterfaceWebPortugol.png" alt="Interface do PortugolWeb">
 
-</blockquote>
 </details>
 
 <details>
 <summary><h3>💡 Baixando e instalando (Aperte para mostrar)</h3></summary>
-<blockquote>
 
 -📢 Pesquise na Google por "Portugol"
 
 -📢 Acesse a página oficial do [Portugol Studio](https://portugol-webstudio.cubos.io/ide)
 
-![Portugol Oficial](/z_imagens/Portugol%20Google%20Oficial.png)
+![Portugol Oficial](/z_imagens/Nivel_0/Portugol%20Google%20Oficial.png)
 
 -📢 Vá em "Download" e baixe o instalador do Portugol
 
-<img align="center" src="/z_imagens/Portugol%20Oficial%20Download.png" width="50%" alt="Interface do PortugolWeb">
+<img align="center" src="/z_imagens/Nivel_0/Portugol%20Oficial%20Download.png" width="50%" alt="Interface do PortugolWeb">
 
--📢 Siga o passo-a-passo de instalação do Portugol (APERTE NO VÍDEO)
+-📢 Siga o passo-a-passo de instalação do Portugol (Aperte para assistir)
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=ClaMn-xn02M" target="_blank"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="Vídeo de instalação"></a>
+  <a href="https://www.youtube.com/watch?v=ClaMn-xn02M" target="_blank"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar"></a>
 </div>
 
 -📢 **Pronto! Você chegou na interface do Portugol**
 
-<img align="center" src="/z_imagens/PortugolPC.png" alt="Interface do Portugol Studio" width="60%">
+<img align="center" src="/z_imagens/Nivel_0/PortugolPC.png" alt="Interface do Portugol Studio" width="60%">
 
-</blockquote>
 </details>
 
-## 🔰 Primeiros contatos
-Com acesso ao Portugol Studio, vamos ver como iniciar, salvar e abrir um arquivo nesse editor!
+<details>
+<summary><h3> 💡 Primeiro contato (Aperte para mostrar) </h3></summary>
 
-![Botões de "Novo" e "Abrir arquivo"](/z_imagens/InterfaceArquivos.png)
+Com acesso ao Portugol Studio, veja o vídeo abaixo destacando os principais elementos que da interface, bem como suas funcionalidades. 
 
-### Conhecendo a interface
+<div align="center">
+  <a href="https://youtu.be/6OIADpFImtc?t=119" target="_blank"><img src="https://img.youtube.com/vi/6OIADpFImtc/0.jpg" alt="[VÍDEO] Primeiro contato - MH Programing"></a>
+</div>
+
+</details>
+
+## ✏️ Conceitos básicos
+Para começarmos, vamos dar uma olhada no que fundamenta a Programação, os Algoritmos:
 <blockquote>
--
+Quando estamos diante de um problema e queremos resolvê-lo, podemos visualizar em nossa mente o estado atual do problema e o estado final que ele estará quando for resolvido. Essa capacidade é a imaginação, um fenômeno de simulação que nosso cérebro fornece.
+
+Quando imaginamos com mais afinco, podemos dividir estados do problema em mais etapas, um passo-a-passo de como sair do ponto A para o ponto B, essa é a nossa lógica, e é ela quem fundamenta os Algoritmos.
 </blockquote>
 
-### Botões utilitários
-<blockquote>
-testando
-</blockquote>
+Algoritmos nada mais são que passos lógicos, uma forma de dividir um problema grande em outros menores, para atacá-los individualmente.
 
-## Comandos básicos
+Pense, por exemplo, que você quer viajar para outro país. A princípio, você pensará isto:
 
-## Como trabalhar os exercícios
+<div align="center">
+  <img src="/z_images/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial">
+</div>
+
+E conforme for estudando e tentando descobrir o que precisa, seu pensamento vai se transfomando:
+
+<div align="center">
+  <img src="/z_images/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário">
+</div>
+
+Quando sentir que possui um bom plano de ação, estará mais ou menos assim:
+
+<div align="center">
+  <img src="/z_images/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final">
+</div>
+
+_**PROGRAMAR É TRANSFORMAR UM PROBLEMA GRANDE EM VÁRIOS PEQUENOS**_
+
+Mas, o que isso significa exatamente? Bem, toda programação parte da ideia de um 
+
+
+
+## 📌 Como utilizar os exercícios
 
