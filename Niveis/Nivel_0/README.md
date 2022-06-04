@@ -8,8 +8,8 @@ e ainda mostrar o resultado de seus códigos!
 
 Nestes primeiros passos, você aprenderá:
 
-* [Como instalar o Portugol Studio](#preparando-o-portugol-studio)
-* [Ideias, conceitos e comandos iniciais](#conceitos-básicos)
+* [Como instalar o Portugol Studio](#🛠️-preparando-o-portugol-studio)
+* [Conceitos e comandos iniciais](#✏️-conceitos-básicos)
 * [Como utilizar os exercícios](#como-utilizar-os-exercícios)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
@@ -218,5 +218,7 @@ Em seguida, temos o comando "leia()", ele abre uma janela de escrita na parte do
   <a href="https://www.youtube.com/watch?v=1jpa8wy2C2I" target="_blank"><img src="https://img.youtube.com/vi/1jpa8wy2C2I/0.jpg" alt="[VÍDEO] Aula 3 de Portugol - Popularizando o mundo da programação"></a>
 </div>
 
+## 🎲 Como utilizar os exercícios
+(EM construção)
 
-## [🚕 (VOLTAR AO TOPO) 🚕](#boas-vindas-ao-nível-0)
+## [🚕 (VOLTAR AO TOPO) 🚕](#🚀-boas-vindas-ao-nível-0-🚀)
