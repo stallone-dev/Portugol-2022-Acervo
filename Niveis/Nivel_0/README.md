@@ -10,7 +10,7 @@ Nestes primeiros passos, você aprenderá:
 
 * [Como instalar o Portugol Studio](#🛠️-preparando-o-portugol-studio)
 * [Conceitos e comandos iniciais](#✏️-conceitos-básicos)
-* [Como utilizar os exercícios](#como-utilizar-os-exercícios)
+* [Como utilizar os exercícios](#🎲-como-utilizar-os-exercícios)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
 pequenos problemas no dia-a-dia, como fazer um cálculo tedioso ou ainda saber as medidas precisas 
