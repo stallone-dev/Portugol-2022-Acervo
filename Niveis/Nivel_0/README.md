@@ -8,9 +8,9 @@ e ainda mostrar o resultado de seus códigos!
 
 Nestes primeiros passos, você aprenderá:
 
-* [Como instalar o Portugol Studio](#🛠️-preparando-o-portugol-studio)
-* [Ideias, conceitos e comandos iniciais](#✏️-conceitos-básicos)
-* [Como utilizar os exercícios](#📌-como-utilizar-os-exercícios)
+* [Como instalar o Portugol Studio](#preparando-o-portugol-studio)
+* [Ideias, conceitos e comandos iniciais](#conceitos-básicos)
+* [Como utilizar os exercícios](#como-utilizar-os-exercícios)
 
 Aproveite para explorar, conhecer e se divertir programando. Programar pode lhe ajudar a resolver 
 pequenos problemas no dia-a-dia, como fazer um cálculo tedioso ou ainda saber as medidas precisas 
@@ -219,4 +219,4 @@ Em seguida, temos o comando "leia()", ele abre uma janela de escrita na parte do
 </div>
 
 
-## [🚕 (VOLTAR AO TOPO) 🚕](#🚀-boas-vindas-ao-nível-0-🚀)
+## [🚕 (VOLTAR AO TOPO) 🚕](#boas-vindas-ao-nível-0)
