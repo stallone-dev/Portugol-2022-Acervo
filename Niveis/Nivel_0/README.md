@@ -1,6 +1,4 @@
-# :hammer: Em construção :hammer:
-
-## [Retornar](https://github.com/stallone-dev/exercicios_portugol_2022)
+## [(RETORNAR AO INÍCIO)](https://github.com/stallone-dev/exercicios_portugol_2022)
 
 ## 🚀 Boas-vindas ao nível 0! 🚀
 
@@ -89,7 +87,7 @@ Com acesso ao Portugol Studio, veja o vídeo abaixo destacando os principais ele
 </details>
 
 ## ✏️ Conceitos básicos
-Para começarmos, vamos dar uma olhada no que fundamenta a Programação, os Algoritmos:
+Para começarmos a entender o Portugol e a Programação em geral, vamos dar uma olhada no que fundamenta os dois, os Algoritmos:
 <blockquote>
 Quando estamos diante de um problema e queremos resolvê-lo, podemos visualizar em nossa mente o estado atual do problema e o estado final que ele estará quando for resolvido. Essa capacidade é a imaginação, um fenômeno de simulação que nosso cérebro fornece.
 
