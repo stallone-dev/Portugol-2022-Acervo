@@ -101,19 +101,19 @@ Algoritmos nada mais são que passos lógicos, uma forma de dividir um problema 
 Pense, por exemplo, que você quer viajar para outro país. A princípio, você pensará isto:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial" whild="60%>
+  <img src="/z_imagens/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial" width="60%">
 </div>
 
 E conforme for estudando e tentando descobrir o que precisa, seu pensamento vai se transfomando:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário" whild="60%>
+  <img src="/z_imagens/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário" width="60%">
 </div>
 
 Quando sentir que possui um bom plano de ação, estará mais ou menos assim:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final" whild="60%>
+  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final" width="60%">
 </div>
 
 Esses três fluxogramas representam os estados da minha mente conforme fui pensando nesse cenário hipotético. Essas etapas que viu representam a construção do Algoritmo: Se antes tinha um único grande problema, agora têm 4 sub-problemas com decisões e objetivos a cumprir, um de cada vez.
