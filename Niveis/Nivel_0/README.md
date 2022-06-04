@@ -93,7 +93,7 @@ Para começarmos, vamos dar uma olhada no que fundamenta a Programação, os Alg
 <blockquote>
 Quando estamos diante de um problema e queremos resolvê-lo, podemos visualizar em nossa mente o estado atual do problema e o estado final que ele estará quando for resolvido. Essa capacidade é a imaginação, um fenômeno de simulação que nosso cérebro fornece.
 
-Quando imaginamos com mais afinco, podemos dividir estados do problema em mais etapas, um passo-a-passo de como sair do ponto A para o ponto B, essa é a nossa lógica, e é ela quem fundamenta os Algoritmos.
+Quando imaginamos com mais afinco, podemos dividir o problema em mais estados, etapas, um passo-a-passo de como sair do ponto A para o ponto B; essa é a nossa lógica, e é ela quem fundamenta os Algoritmos.
 </blockquote>
 
 Algoritmos nada mais são que passos lógicos, uma forma de dividir um problema grande em outros menores, para atacá-los individualmente.
@@ -101,22 +101,25 @@ Algoritmos nada mais são que passos lógicos, uma forma de dividir um problema 
 Pense, por exemplo, que você quer viajar para outro país. A princípio, você pensará isto:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial">
+  <img src="/z_imagens/Nivel_0/Estagio1.png" alt="Fluxograma de planejamento - Inicial" whild="60%>
 </div>
 
 E conforme for estudando e tentando descobrir o que precisa, seu pensamento vai se transfomando:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário">
+  <img src="/z_imagens/Nivel_0/Estagio2.png" alt="Fluxograma de planejamento - Intermediário" whild="60%>
 </div>
 
 Quando sentir que possui um bom plano de ação, estará mais ou menos assim:
 
 <div align="center">
-  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final">
+  <img src="/z_imagens/Nivel_0/Estagio3.png" alt="Fluxograma de planejamento - Final" whild="60%>
 </div>
 
-_**PROGRAMAR É TRANSFORMAR UM PROBLEMA GRANDE EM VÁRIOS PEQUENOS**_
+Esses três fluxogramas representam os estados da minha mente conforme fui pensando nesse cenário hipotético. Essas etapas que viu representam a construção do Algoritmo: Se antes tinha um único grande problema, agora têm 4 sub-problemas com decisões e objetivos a cumprir, um de cada vez.
+
+_**Ou melhor, agora há um Algoritmo de resolução.**_
+
 
 Mas, o que isso significa exatamente? Bem, toda programação parte da ideia de um 
 
