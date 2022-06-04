@@ -8,7 +8,7 @@ Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado 
 <img align="right" src="./z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="280">
 
 ## Atalhos
-* [Nível 0 - Entradas e Saídas](./Niveis/Nivel_0/)
+* [Nível 0 - Entradas e Saídas](./Niveis/Nivel_0/README.md)
 * [Nível 1 - Operações Aritméticas](./Niveis/Nivel_1/)
 * [Nível 2 - Desvios Condicionais](./Niveis/Nivel_2/)
 * [Nível 3 - Laços de Repetição](./Niveis/Nivel_3/)
