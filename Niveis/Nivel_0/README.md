@@ -1,4 +1,4 @@
-## [(RETORNAR AO INÍCIO)](https://github.com/stallone-dev/exercicios_portugol_2022)
+## [(VOLTAR AO INÍCIO)](https://github.com/stallone-dev/exercicios_portugol_2022)
 
 ## 🚀 Boas-vindas ao nível 0! 🚀
 
