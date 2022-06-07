@@ -21,8 +21,6 @@
 
     => Mostre o resultado do Exercicio_03 arredondado.
     
-    Dica: Matematica.arredondar([valor_real], [casas_decimais])
-    
     ==================================================================
 */
 

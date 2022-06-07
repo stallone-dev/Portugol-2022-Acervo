@@ -20,10 +20,6 @@
     
     => Mostre cada resultado separadamente (Tanto 1 mês quanto 30 dias)
         => Arredonde os resultados para 2º casa decimal
-
-	Dica: Antes de pensar na conversão, é interessante 
-		 pensar em como chegar numa medida precisa de tempo
-		 para poder começar.
     
     ==================================================================
 */

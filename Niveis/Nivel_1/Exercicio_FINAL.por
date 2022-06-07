@@ -12,7 +12,7 @@
         semanas e um hotel pelo mesmo tempo.
     
     => Considere que os seus custos foram: 
-		    => Cada passagem  = 579 euros
+		    => 1 passagem     = 579 euros
 		    => 1 dia de hotel = 80  euros
 		    => 1 dia de carro = 9.8 euros
     
@@ -22,8 +22,6 @@
 
     => Mostre o valor total original, o desconto e o valor final, EM REAIS.
         => Arredonde os valores para 2º casa decimal e tabule-os.
-
-    Dica: Quanto está a cotação do Euro?
     
     ==================================================================
 */
