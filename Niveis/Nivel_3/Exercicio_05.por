@@ -1,23 +1,30 @@
 /*
-    Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
-    Autor       - Gustavo Guanabara
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
     Atualizado em: 08/06/22
  
-    ===================== Nível 3 - Exercício 03 =====================
+    ===================== Nível 3 - Exercício 05 =====================
 
-    Lembra do desvio condicional? Vamos aplicá-lo!
+    Mais uma pitada de desvio condicional:
 
-    => Desenvolva um algoritmo que leia um valor inicial, um final e um
-    valor de incremento na contagem.
-    => Mostre a contagem ao usuário.
+    => Desenvolva um algoritmo que faça um sorteio de números com base
+    nos seguintes critérios definidos pelo usuário:
+        => Quantos números serão sorteados
+        => Qual o menor número do sorteio
+        => Qual o maior número do sorteio
+    
+    => A partir disso, mostre o seguinte resultado:
+        => Quantos números PARES foram sorteados
+        => Quantos números IMPARES foram sorteados
+        => Quantos foram divisíveis por 3 e por 5
+        => Quantos foram divisíveis por 2, 3 e 5
 
-    Ex: Digite o primeiro Valor: 3
-        Digite o último Valor: 10
-        Digite o incremento: 2
-        Contagem: 3 5 7 9 Acabou!
+    OBS.: Para sortear números aleatórios, utiliza-se a biblioteca
+          Útil, dê uma olhada por lá:
+          Ajuda => Bibliotecas => Útil => Sorteia
 
-    => Se o número final for menor que o inicial, desenvolva um método 
-    para fazer essa contagem regressiva.
+    DICA: Lembra do "Resto da divisão inteira"?
+          Contadores são sempre bem-vindos.
 
     ==================================================================
 */
