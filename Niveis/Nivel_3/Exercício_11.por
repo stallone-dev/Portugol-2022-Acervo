@@ -1,6 +1,6 @@
 /*
-    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
-    Autor       - Stallone L. de Souza
+    Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Gustavo Guanabara
     Atualizado em: 08/06/22
  
     ===================== Nível 3 - Exercício 11 =====================
