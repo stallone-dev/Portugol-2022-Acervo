@@ -1,16 +1,9 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 02/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 08/06/22
  
-    ===================== Nível 2 - Exercício 05 =====================
-
-    De volta à boa e velha lógica do desvio condicional!
+    ===================== Nível 2 - Exercício 09 =====================
 
     Desta vez, vamos para um desafio clássico: A pirâmide do IMC!
     

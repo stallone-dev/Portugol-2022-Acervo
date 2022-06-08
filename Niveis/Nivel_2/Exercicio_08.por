@@ -17,11 +17,11 @@
     => Faça um algoritmo que leia o tipo de carro alugado, por quantos
     dias foi alugado e quantos km percorreu.
 
-    => Calcule o resultado e mostre, em detalhes, o valor a ser pago 
+    => Calcule o valor total a ser pago e mostre, em detalhes, cada valor 
     de acordo com a tabela a seguir:
-        => Até 100km = Sem taxa adicional
-        => Até 300km = R$ 0,30 p/km
-        => Acima disso = R$ 0,50 p/km
+        => Até 100km    = Sem taxa adicional
+        => Até 300km    = R$ 0,30 p/km
+        => Acima disso  = R$ 0,50 p/km
 
     ==================================================================
 */
