@@ -14,7 +14,7 @@ Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado 
 * [Nível 3 - Laços de Repetição](./Niveis/Nivel_3/)
 * [Nível 4 - Vetores e Matrizes](./Niveis/Nivel_4/)
 * [Nível 5 - Funções](./Niveis/Nivel_5/)
-* [Nível EXTRA - Exercícios desatualizados](./Niveis/Questoes_Extras_DESATUALIZADO/)
+* [Nível EXTRA - Exercícios gerais](./Niveis/Questoes_Extras_DESATUALIZADO/)
 * [SOLUÇÕES - Stallone L.S.](./Solucoes/)
 
 ## O que vai encontrar aqui
