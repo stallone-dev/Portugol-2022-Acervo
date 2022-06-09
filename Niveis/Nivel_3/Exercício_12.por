@@ -1,26 +1,34 @@
 /*
-    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 08/06/22
+    Atualizado em: 09/06/22
  
     ===================== Nível 3 - Exercício 12 =====================
     ========================= Fim da parte 3 =========================
 
-    Neste exercício final da parte 3, vamos apliar a estrutura "para"
-    em uma situação interessante:
+    O laço "Para" é muito útil quando se quer ter um controle preciso
+    de quantas repetições irão ocorrer, esse controle é necessário em
+    situações como uma pesquisa de opinião, uma análise estatística e
+    um controle de acesso por demanda.
 
-    => Imagine que você programa para três microempresas diferentes.
-    Para saber se seus esforços estão sendo produtivos, você decide
-    fazer um levantamento de quantos trabalhos fez em cada uma e quantas
-    horas dedicou em cada trabalho.
-    => A partir disso, você deseja saber qual a média de tempo gasto em
-    cada empresa e qual a média geral de tempo demandado em um trabalho.
-    => Mas, antes disso, você faz um CHUTE de quantas horas dedica p/trabalho
+    Vamos simular este último agora:
 
-    => Construa um programa que simule a situação acima,exibindo nos resultados:
-        => A quantidade de trabalhos feitos e a média de tempo demandado p/empresa
-        => A média geral de tempo demandado nos trabalhos
-        => Confirmar se o chute inicial está perto ou não, com margem de erro de 30%
+    => Crie um pequeno sistema de gerenciamento de acesso, nele deve ter:
+        => Uma parte onde a Administração informa quantas vagas existem
+        => Uma parte onde as vagas podem ser preenchidas
+        => E um desvio para informar se há novas vagas ou não.
+            => Se tiver novas vagas, deve retornar para o começo
+
+    => Considere aqui que a vaga deve exigir:
+        => Gênero
+        => Idade
+
+    => Com esse sistema feito, mostre na tela o resultado das vagas:
+        => Quantas vagas foram preenchidas
+            => Se alguém têm menos de 18 anos, desqualificar
+        => Quantas mulheres conseguiram uma vaga
+        => Quantos homens conseguiram uma vaga
+        => Qual a média de idade geral.
+
 
     ==================================================================
 */
