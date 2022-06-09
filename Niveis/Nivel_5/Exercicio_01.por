@@ -6,7 +6,9 @@
     ===================== Nível 5 - Exercício 01 =====================
     ===================== Etapa de Procedimentos =====================
 
-    Enfim chegamos ao Nível 5! 
+    Enfim chegamos ao Nível 5! Este nível, que na verdade é um dos mais
+    simples, o que será feito é uma divisão de tarefas:
+        - Em vez de colocar toda responsabilidade em um código.
       
     ==================================================================
 */
