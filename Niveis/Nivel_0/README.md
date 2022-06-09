@@ -1,6 +1,6 @@
 ## [(VOLTAR AO INÍCIO)](https://github.com/stallone-dev/exercicios_portugol_2022)
 
-## 🚀 Boas-vindas ao nível 0! 🚀
+# Boas-vindas ao nível 0!
 
 Aqui, o objetivo será ensinar o básico para começar com o pé direito no Portugol! 
 Ao fim desse nível, você deverá ser capaz de utilizar o Portugol Studio, criar e salvar arquivos 
@@ -20,7 +20,7 @@ de uma receita de bolo de diferentes tamanhos!
 
 Vamos lá:
 
-## 🛠️ Preparando o Portugol Studio
+# Preparando o Portugol Studio
 Para programar em Portugol é preciso um editor de texto especial, ele é chamado de "Portugol Studio".
 
 <div align="center">
