@@ -5,7 +5,9 @@
 Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado para o [Portugol Studio](http://lite.acad.univali.br/portugol/) de 2022. 
 
 
-<img align="right" src="./z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="280">
+<a href="/README.md">
+<img align="right" src="/z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="280">
+</a>
 
 ## Atalhos
 * [Nível 0 - Entradas e Saídas](./Niveis/Nivel_0/)
