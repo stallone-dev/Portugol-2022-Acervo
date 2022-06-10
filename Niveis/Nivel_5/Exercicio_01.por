@@ -11,8 +11,8 @@
         - Em vez de colocar toda responsabilidade do código em um lugar só
         vamos separá-lo em pequenas funções e chamá-lo quando for necessário.
 
-    => Crie uma função que gere 50 vezes o símbolo "=", em seguida, chame
-    essa função dentro da "funcao inicio" do Algoritmo. 
+    => Crie um procedimento que gere 50 vezes o símbolo "=", em seguida, chame
+    esse procedimento dentro da "funcao inicio" do Algoritmo. 
       
     ==================================================================
 */
