@@ -1,11 +1,15 @@
 ## [RETORNAR](https://github.com/stallone-dev/Portugol-2022-Acervo)
 
 # Nível 0 - Entradas e Saídas
+<div align="center">
+
 ![Situação Aulas](https://img.shields.io/badge/Aulas-Em%20construção-orange?style=for-the-badge)
 
 ![Situação Exercícios](https://img.shields.io/badge/EXERCÍCIOS-Concluído-success?style=for-the-badge)
 
 ![Situação Soluções](https://img.shields.io/badge/Soluçẽs-Concluído-success?style=for-the-badge)
+
+</div>
 
 ## Atalhos
 
