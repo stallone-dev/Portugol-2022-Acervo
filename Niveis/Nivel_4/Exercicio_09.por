@@ -18,7 +18,6 @@ programa
 {
 	funcao inicio() 
 	{
-<<<<<<< HEAD
         inteiro notas_fiscais[] = { 119,101,101,95,131,27,50,58,8,71,51,193,67,184,70,121,27,15,49,37,164,50,122,48,92,75,95,79,126,32,145,191,70,199,116,36,175,191,65,117,23,165,58,179,119,5,6,2,73,135 }
 		
 		cadeia dia_junho[] = { "Dia 11","Dia 21","Dia 18","Dia 24","Dia 4","Dia 24","Dia 22","Dia 8","Dia 5","Dia 16","Dia 11","Dia 4","Dia 18","Dia 20","Dia 25","Dia 30","Dia 14","Dia 11","Dia 12","Dia 16","Dia 14","Dia 30","Dia 30","Dia 13","Dia 18","Dia 10","Dia 24","Dia 26","Dia 2","Dia 10","Dia 2","Dia 8","Dia 6","Dia 6","Dia 10","Dia 4","Dia 3","Dia 16","Dia 4","Dia 13","Dia 22","Dia 5","Dia 27","Dia 12","Dia 18","Dia 25","Dia 7","Dia 26","Dia 5","Dia 6" }
@@ -31,8 +30,6 @@ programa
 	
 		
 
-=======
->>>>>>> 9f6bbe992bec833392e082d818a24b3051ff18dd
     
 	}
 }
