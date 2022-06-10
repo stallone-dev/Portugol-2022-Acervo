@@ -10,7 +10,7 @@
 
     => Lembra do exercício 09 aqui do nível 3? Então, nele você tinha
     de analisar o fluxo de caixa de UM ÚNICO dia, avaliando quais produtos
-    vendem mais, quanto foi vendido de cada e qual a porcentagem de venda
+    venderam mais, quanto foi vendido de cada e qual a porcentagem de venda
     dos três mais vendidos.
 
     => Para este exercício final, a HL, dona da açaiteria, quer que você
@@ -20,7 +20,8 @@
         => Nos 3 primeiros dias o item mais vendido foi o mesmo dos 3 últimos dias?
 
 
-    OBS.: Por que analisar o desvio padrão?
+    OBS.: Por que analisar o DESVIO PADRÃO?
+
           Dentro da estatística, a MÉDIA é uma informação que não agrega
           muito valor de decisão, uma vez que uma média não revela qual
           o tamanho da variação que ocorreu, em especial nas vendas.
@@ -39,11 +40,12 @@
                 Dia 3 - 140 sorvetes vendidos
 
           Com essa variação tão grande nas vendas, fica muito arrisado decidir
-          investir nisso, pois tanto pode ficar um fluxo de 100+ sorvetes p/dia
+          investir, pois tanto pode ficar um fluxo de 100+ sorvetes p/dia
           quanto um período longo vendendo só 20 ou 30.
 
           Em outro cenário, onde o desvio padrão fosse, por exemplo, 
-          de 6 sorvetes, essa decisão seria muito mais segura.
+          de 6 sorvetes, essa decisão seria muito mais segura, visto que
+          as vendas nesses 3 dias foram bem consistentes.
 
           Ter mais segurança em uma decisão é vital para QUALQUER situação.
 

@@ -16,8 +16,6 @@
     
     => HL lhe informa que a açaiteria trabalha com os seguintes produtos:
         => Açaí rústico
-        => Açaí com chocolate
-        => Açaí super recheado
         => Sorvete napolitano
         => Brownie de pote com sorvete
 
