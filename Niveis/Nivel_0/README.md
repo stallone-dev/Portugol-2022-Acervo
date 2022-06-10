@@ -1,4 +1,4 @@
-## [RETORNAR](https://github.com/stallone-dev/exercicios_portugol_2022)
+## [RETORNAR](https://github.com/stallone-dev/Portugol-2022-Acervo)
 
 # Nível 0 - Entradas e Saídas
 
@@ -6,7 +6,7 @@
 
 ### Aprendizados
 * [Aulas indicadas](#aulas-indicadas)
-* [Ideias principais](#ideias-principais)
+* [Conceitos principais](#conceitos-principais)
 * [Comandos principais](#comandos-principais)
 
 ### Exercícios
@@ -20,14 +20,20 @@
 
 ## Aulas indicadas
 
-## Ideias principais
+## Conceitos principais
 
 ## Comandos principais
 
 <details>
 <summary><h3>💡 Exemplos</h3></summary>
+
+**Exemplo 1:**
+
+~~~portugol
+    escreva("Olá Mundo!")
+~~~
 </details>
 
 ***
 
-## [Voltar o topo](./README.md)
+## [Voltar o topo](#retornarhttpsgithubcomstallone-devportugol-2022-acervo)
