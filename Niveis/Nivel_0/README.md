@@ -10,11 +10,11 @@
 * [Comandos principais](#comandos-principais)
 
 ### Exercícios
-* [Exercicio 1](./Exercicio_01.por)
-* [Exercicio 2](./Exercicio_02.por)
-* [Exercicio 3](./Exercicio_03.por)
-* [Exercicio 4](./Exercicio_04.por)
-* [Exercicio FINAL](./Exercicio_FINAL.por)
+* [Exercício 1](./Exercicio_01.por)
+* [Exercício 2](./Exercicio_02.por)
+* [Exercício 3](./Exercicio_03.por)
+* [Exercício 4](./Exercicio_04.por)
+* [Exercício FINAL](./Exercicio_FINAL.por)
 
 ***
 

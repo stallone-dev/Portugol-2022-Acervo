@@ -1,18 +1,27 @@
-## [RETORNAR](https://github.com/stallone-dev/exercicios_portugol_2022)
+## [RETORNAR](https://github.com/stallone-dev/Portugol-2022-Acervo)
 
-# Nível 0 - Entradas e Saídas
+# Nível DESAFIO
 
 ## Atalhos
 
-### Exercícios
-* [Exercicio 1](./Exercicio_01.por)
-* [Exercicio 2](./Exercicio_02.por)
-* [Exercicio 3](./Exercicio_03.por)
-* [Exercicio 4](./Exercicio_04.por)
-* [Exercicio FINAL](./Exercicio_FINAL.por)
+* [REVISÃO](#revisão)
 
-## Aulas indicadas
+* [Desafio 1](./Desafio_01.por)
+* [Desafio 2](./Desafio_02.por)
+***
 
-## Ideias principais
+## Revisão
 
-## Comandos principais
+<details>
+<summary><h3>💡 Exemplos</h3></summary>
+
+**Exemplo 1:**
+
+~~~portugol
+    escreva("Olá Mundo!")
+~~~
+</details>
+
+***
+
+## [Voltar o topo](#retornar)

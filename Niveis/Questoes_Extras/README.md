@@ -1,6 +1,6 @@
 ## [Retornar](https://github.com/stallone-dev/exercicios_portugol_2022)
 
-## Exercícios complementares reunidos por outros desenvolvedores
+# Exercícios complementares reunidos por outros desenvolvedores
 
 <a href="/README.md">
 <img align="right" src="/z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="200">
