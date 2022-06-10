@@ -36,4 +36,4 @@
 
 ***
 
-## [Voltar o topo](#retornarhttpsgithubcomstallone-devportugol-2022-acervo)
+## [Voltar o topo](#retornar)
