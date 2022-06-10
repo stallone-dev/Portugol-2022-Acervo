@@ -20,6 +20,8 @@ Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado 
 ## O que vai encontrar aqui
     [ATUALIZAR]
 
+[Repositório - Prof. Rodrigo Silva](https://github.com/Prof-Rodrigo-Silva/PortugolStudioListaExercicios1)
+
 ## 🏕️ Propósito
 Este repositório existe para ajudar novos desenvolvedores que queiram conhecer um pouco mais da Lógica de Programação. 
 
