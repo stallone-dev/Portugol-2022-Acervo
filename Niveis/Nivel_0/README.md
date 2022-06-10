@@ -1,7 +1,7 @@
 ## [RETORNAR](https://github.com/stallone-dev/Portugol-2022-Acervo)
 
 # Nível 0 - Entradas e Saídas
-![Licença utilizada](https://img.shields.io/github/license/stallone-dev/exercicios_portugol_2022?label=LICEN%C3%87A&?style=for-the-badge)
+![Licença utilizada](https://img.shields.io/github/license/stallone-dev/exercicios_portugol_2022?label=LICEN%C3%87A&style=for-the-badge)
 ![Situação Geral](https://img.shields.io/badge/STATUS-Em%20construção-orange?style=for-the-badge)
 
 ## Atalhos
