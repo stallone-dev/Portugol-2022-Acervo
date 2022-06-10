@@ -2,7 +2,7 @@
 
 ## Exercícios complementares reunidos por outros desenvolvedores
 
-<img align="right" src="/z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="280">
+<img align="right" src="/z_imagens/LogoPortugol.png" alt="Logo do Portugol Studio - Desenho de uma lâmpada minimalista amarela." width="200">
 
 * [Prof. Gustavo Guanabara - Curso em Vídeo](./exercicios-algoritmos.pdf)
 * [Pŕof. Rodrigo Silva - IFSUL](https://github.com/Prof-Rodrigo-Silva/PortugolStudioListaExercicios1)
