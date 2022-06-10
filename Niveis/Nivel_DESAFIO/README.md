@@ -3,9 +3,6 @@
 # Nível DESAFIO
 
 ## Atalhos
-
-* [REVISÃO](#revisão)
-
 * [Desafio 1](./Desafio_01.por)
 * [Desafio 2](./Desafio_02.por)
 ***
