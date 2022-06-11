@@ -27,18 +27,15 @@
 
 <div style="display: inline-block;">
 
-
-
-<p>O que é algoritmo?<span><br>
+<p>O que é algoritmo?<br>
 
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
-<img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] O que é Algoritmo? [AUTOR] GCFAprendeLivre">
+<img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
 </a>
+</p>
 </div>
 
 <div style="display: inline-block;">
-</p>
-
 <p>O que é algoritmo?<br>
 
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
