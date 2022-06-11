@@ -25,11 +25,11 @@
 
 **Visual:**
 
-<div style="display: inline-block;">
+<div style="display: inline-block; align-itens: center;">
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
-<img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
+<img height="230em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
-<img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
+<img height="230em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
 </a>
 </p>
 
