@@ -29,11 +29,12 @@
 
 
 
-<p>O que é algoritmo?<br>
+<p>O que é algoritmo?<span><br>
 
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
 <img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] O que é Algoritmo? [AUTOR] GCFAprendeLivre">
 </a>
+</span>
 </p>
 
 <p>O que é algoritmo?<br>
