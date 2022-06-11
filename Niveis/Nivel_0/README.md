@@ -23,12 +23,25 @@
 
 ## Aulas indicadas
 
+**Visual:**
+
+<div align="center">
+
+O que é algoritmo?
+
+<a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
+<img src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] O que é Algoritmo? [AUTOR] GCFAprendeLivre">
+</a>
+
+</div>
+
+
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
 <img src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
 </a>
-<a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
-<img src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
-</a>
+
+
+**Textual:**
 
 ## Conceitos principais
 
