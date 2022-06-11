@@ -32,6 +32,7 @@
 </a>
 </p>
 </div>
+
 <div style="display: inline-block;">
 <p>O que é algoritmo?<br>
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
