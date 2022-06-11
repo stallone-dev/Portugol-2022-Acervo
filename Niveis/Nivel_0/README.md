@@ -28,6 +28,7 @@
 <div align="center">
 
 <span>
+
 O que é algoritmo?
 
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
@@ -36,6 +37,7 @@ O que é algoritmo?
 </span>
 
 <span>
+
 O que é algoritmo?
 
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
