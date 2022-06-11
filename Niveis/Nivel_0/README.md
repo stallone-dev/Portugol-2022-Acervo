@@ -31,7 +31,6 @@
 <img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
 </a>
 </p>
-
 </div>
 <div style="display: inline-block;">
 <p>O que é algoritmo?<br>
