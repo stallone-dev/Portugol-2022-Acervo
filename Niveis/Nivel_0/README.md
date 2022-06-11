@@ -25,9 +25,9 @@
 
 **Visual:**
 
-<div align="center" style="display: inline-block">
+<div align="center">
 
-<span>
+
 
 <p>O que é algoritmo?<br>
 
@@ -35,9 +35,6 @@
 <img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] O que é Algoritmo? [AUTOR] GCFAprendeLivre">
 </a>
 </p>
-</span>
-
-<span>
 
 <p>O que é algoritmo?<br>
 
@@ -45,7 +42,7 @@
 <img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
 </a>
 </p>
-</span>
+
 
 </div>
 
