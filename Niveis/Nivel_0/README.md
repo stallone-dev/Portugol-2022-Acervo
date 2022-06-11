@@ -1,10 +1,3 @@
-<style>
-    div{
-        display: inline-block;
-    }
-</style>
-
-
 ## [RETORNAR](https://github.com/stallone-dev/Portugol-2022-Acervo)
 
 # Nível 0 - Entradas e Saídas
@@ -32,7 +25,7 @@
 
 **Visual:**
 
-<div>
+<div style="display: inline-block;">
 
 
 
@@ -43,7 +36,7 @@
 </a>
 </div>
 
-<div>
+<div style="display: inline-block;">
 </p>
 
 <p>O que é algoritmo?<br>
