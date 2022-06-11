@@ -23,6 +23,13 @@
 
 ## Aulas indicadas
 
+![Algoritmo](https://youtu.be/iEVLDKOLgQk)
+
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=ClaMn-xn02M" target="_blank"><img src="https://img.youtube.com/vi/ClaMn-xn02M/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar"></a>
+</div>
+
 ## Conceitos principais
 
 ## Comandos principais
