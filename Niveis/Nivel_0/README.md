@@ -1,3 +1,10 @@
+<style>
+    div{
+        display: inline-block;
+    }
+</style>
+
+
 ## [RETORNAR](https://github.com/stallone-dev/Portugol-2022-Acervo)
 
 # Nível 0 - Entradas e Saídas
@@ -25,7 +32,7 @@
 
 **Visual:**
 
-<div align="center">
+<div>
 
 
 
@@ -34,7 +41,9 @@
 <a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
 <img height="130em" src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] O que é Algoritmo? [AUTOR] GCFAprendeLivre">
 </a>
-</span>
+</div>
+
+<div>
 </p>
 
 <p>O que é algoritmo?<br>
