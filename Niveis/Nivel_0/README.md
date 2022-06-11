@@ -25,7 +25,7 @@
 
 **Visual:**
 
-<div align="center" style="display: inline-block>
+<div align="center" style="display: inline-block">
 
 <span>
 
