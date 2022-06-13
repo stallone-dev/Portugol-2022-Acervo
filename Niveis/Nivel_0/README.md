@@ -23,21 +23,23 @@
 
 ## Aulas indicadas
 
-**Visual:**
+Abaixo estarão links para vídeos e aulas indicadas,
 
-<div style="display: inline-block;">
-<a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
-<img src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
-<a href="https://youtu.be/iEVLDKOLgQk" target="_blank">
-<img src="https://img.youtube.com/vi/iEVLDKOLgQk/0.jpg" alt="[VÍDEO] Instalação do Portugol Studio no Windows - Eu amo Programar">
-</a>
-</p>
+**Vídeos conceituas:**
 
+* [O que é um algoritmo?](https://youtu.be/iEVLDKOLgQk)
+* [Como algoritmos mudam o mundo?](https://www.youtube.com/watch?v=Xo1V_JL1yAg)
+* [Como o algoritmo é represenado no Portugol?](https://youtu.be/dtgHcIKjazA)
 
-</div>
+**Vídeos de introdução ao Portugol:**
 
+* [Como instalar o Portugol](https://youtu.be/9jlQQNeVMIg)
+* [Como exibir resultados no Portugol](https://youtu.be/lN0DD6BAyxc)
+* [O que são VARIÁVEIS e como utilizá-las](https://youtu.be/7jIb5TASoPM)
 
-**Textual:**
+**Material em Texto:**
+
+* [CAP 2 ao 7, pag 2-10 - Apostila Prof. Rodrigo Silva](https://github.com/Prof-Rodrigo-Silva/PortugolStudioListaExercicios1/blob/master/APOSTILA%20PSEUDO%20ALGORITMO.pdf)
 
 ## Conceitos principais
 
