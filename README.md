@@ -10,19 +10,17 @@ Repositório de exercícios intensivos e mini-aulas de **Portugol**, atualizado 
 </a>
 
 ## Atalhos
-* [Nível 0 - Entradas e Saídas](./Niveis/Nivel_0/)
-* [Nível 1 - Operações Aritméticas](./Niveis/Nivel_1/)
-* [Nível 2 - Desvios Condicionais](./Niveis/Nivel_2/)
-* [Nível 3 - Laços de Repetição](./Niveis/Nivel_3/)
-* [Nível 4 - Vetores e Matrizes](./Niveis/Nivel_4/)
-* [Nível 5 - Funções](./Niveis/Nivel_5/)
-* [Nível EXTRA - Exercícios gerais](./Niveis/Questoes_Extras_DESATUALIZADO/)
-* [SOLUÇÕES - Stallone L.S.](./Solucoes/)
+* [Nível 0 - Entradas e Saídas](./Niveis/Nivel_0/README.md)
+* [Nível 1 - Operações Aritméticas](./Niveis/Nivel_1/README.md)
+* [Nível 2 - Desvios Condicionais](./Niveis/Nivel_2/README.md)
+* [Nível 3 - Laços de Repetição](./Niveis/Nivel_3/README.md)
+* [Nível 4 - Vetores e Matrizes](./Niveis/Nivel_4/README.md)
+* [Nível 5 - Funções](./Niveis/Nivel_5/README.md)
+* [Nível EXTRA - Exercícios gerais](./Niveis/Questoes_Extras/README.md)
+* [SOLUÇÕES - Stallone L.S.](./Solucoes/README.md)
 
 ## O que vai encontrar aqui
     [ATUALIZAR]
-
-[Repositório - Prof. Rodrigo Silva](https://github.com/Prof-Rodrigo-Silva/PortugolStudioListaExercicios1)
 
 ## 🏕️ Propósito
 Este repositório existe para ajudar novos desenvolvedores que queiram conhecer um pouco mais da Lógica de Programação. 
