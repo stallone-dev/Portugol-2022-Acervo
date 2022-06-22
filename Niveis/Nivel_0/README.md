@@ -38,7 +38,7 @@ Abaixo estarão links para vídeos e aulas indicadas,
 * [Como exibir um RESULTADO - [Popularizando o mundo da programação]](https://youtu.be/lN0DD6BAyxc)
 * [O que são VARIÁVEIS e como utilizá-las - [Popularizando o mundo da programação]](https://youtu.be/7jIb5TASoPM)
 
-**Material em Texto:**+
+**Material em Texto:**
 
 * [CAP 2 ao 7, pag 2-10 - [Apostila do Prof. Rodrigo Silva]](https://github.com/Prof-Rodrigo-Silva/PortugolStudioListaExercicios1/blob/master/APOSTILA%20PSEUDO%20ALGORITMO.pdf)
 

@@ -3,7 +3,8 @@
 # Nível 2 - Desvios Condicionais
 ![Situação Aulas](https://img.shields.io/badge/AULAS-Em%20construção-orange?style=for-the-badge)
 ![Situação Exercícios](https://img.shields.io/badge/EXERCÍCIOS-CONCLUÍDO-success?style=for-the-badge)
-![Situação Soluções](https://img.shields.io/badge/SOLUÇÕES-Em%20construção-orange?style=for-the-badge)
+![Situação Soluções](https://img.shields.io/badge/SOLUÇÕES-CONCLUÍDO-success?style=for-the-badge)
+
 
 ## Atalhos
 
