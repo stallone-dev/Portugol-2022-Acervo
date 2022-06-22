@@ -1,182 +1,126 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 02/06/2022
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 06/06/22
  
     ===================== Nível 2 - Exercício 05 =====================
-
-    De volta à boa e velha lógica do desvio condicional!
-
-    Desta vez, vamos para um desafio clássico: A pirâmide do IMC!
     
-    Pergunte ao usuário a ALTURA e o PESO dele.
-    		-- Com essas informações, calcule o IMC dele
-    		-- Exiba na tela qual faixa de IMC ele se encontra
-    		-- Exiba também o IMC calculado, com 1 casa decimal
+    => Faça um programa que leia nome, gênero e o valor das compras
+    do cliente e calcule o preço com desconto. Sabendo que:
+        => Homens ganham 7% de desconto
+        => Mulheres ganham 19% de desconto
 
-    OBS: IMC = Índice de Massa Corporal, é uma medida que avalia 
-         clinicamente se uma pessoa está magra demais ou com gordura 
-         demais em relação a altura.
-
-    OBS2: Para fins de praticidade, considere as faixas abaixo:
-    		-- Magreza grave 	[<16]
-    		-- Magreza leve 	[>=16 e <18.5]
-    		-- Peso normal 	[>=18.5 e <25]
-    		-- Sobrepeso		[>=25 e <30]
-    		-- Obesidade		[>=30]
-
-    Dica: A fórmula do IMC é [ peso(kg) / altura(m)² ]
-    		Estude um pouco sobre Operações Lógicas:
-    		Ajuda => Linguagem Portugol => Expressões => Operações Lógicas 
-    		Lembre-se da biblioteca de matemática!
+    => Caso o total de compras APÓS o desconto seja maior que R$ 830,00,
+    adicione a seguinte mensagem:
+        => "MUITO OBRIGADO! 5% do que você pagou será doado para 
+        iniciativas de inclusão de mulheres na programação!"
     
     ==================================================================
 */
 
 programa 
-{
+{	
 	inclua biblioteca Matematica --> Mat
 	
 	funcao inicio() 
-	{
+	{	
 		/*
-		  Para calcular o IMC, precisamos colocar um desvio condicional dentro do outro
-		  afinal, em uma dessa 5 faixas o cálculo deve estar.
-		  Objetivos:
-		  	-- Calcular o IMC do usuário.
-		  	-- Testar em qual faixa ele se encontra.
-		  	-- Mostrar o resultado
-		*/
+		 	LEMBRANDO - Os operadores relacionais são:
+	  			-- [ > ] - "Maior que" - Compara se o primeiro é MAIOR que o segundo
+	  			-- [ < ] - "Menor que" - Compara se o primeiro é MENOR que o segundo
+	  			-- [ >= ] - "Maior ou igual a" - O mesmo que [ > ], porém tolera igualdade
+	  			-- [ <= ] - "Menor ou igual a" - O mesmo que [ < ], porém tolera igualdade
+	  			-- [ == ] - "Igual a" - Compara se o primeiro é IGUAL ao segundo
+	  			-- [ != ] - "Diferente de" - Compara se o primeiro é DIFERENTE do segundo
 
-		// Parte 1 - Declaração das variáveis importantes
-		real altura_usuario, peso_usuario, IMC
-		cadeia faixa_imc
-		inteiro metodo_escolhido
+	  		Neste exemplo de solução, vou abstrair um pouco as coisas:
+	  			Em vez de utilizar números por toda parte, como na hora de apliar o desconto, vou
+	  			utilizar variáveis que representem esses números.
+	  			
+	  			Mas, por que fazer isso?
+
+	  			Em resumo: MANUTENÇÃO.
+	  			
+	  			Em detalhes: Imagine que 3 anos depois que você construiu esse código, seu cliente
+	  			quer aplicar novamente a mesma promoção, porém com um desconto diferente.
+	  				Em vez de 19% de desconto para mulheres, será 25%
+	  			Você, sabendo que já fez esse código antes, pode reutilizá-lo, só mudando o percentual.
+	  			Fazer isso ao longo de poucas linhas é simples, mas imagine se precisar alterar dezenas
+	  			de linhas de código só para atualizar um número.
+
+	  			Aí que entra a variável: Ela substitui o número que seria escrito ali por algo simbólico
+	  			e em outro lugar esse "símbolo" é atribuído um valor. Se esse valor for alterado, tudo
+	  			se atualiza imediatamente, agilizando MUITO a MANUTENÇÃO e REUTILIZAÇÃO do código.
+	  			
+		 */
+
+		// Declarando variáveis autodescritivas
+		caracter genero_cliente
 		
+		cadeia nome_cliente
 
-		// Parte 2 - Perguntando ao usuário
-		escreva("Qual a sua altura em metros? [use '.' em vez de ','] ")
-		leia(altura_usuario)
-		escreva("Qual o seu peso em quilogramas (kg)? ")
-		leia(peso_usuario)
-
-
-		// Parte 3 - Calculando IMC
-		IMC = peso_usuario / (altura_usuario * altura_usuario)
-
-
-		// Parte 4 - Utilizando desvios condicionais para descobrir a faixa
-		/*
-		  Vou fazer algo diferente aqui:
-		  	Mais abaixo estarão escritas funções do lado de fora
-		  	da função "inicio".
-		  			  	
-		  	Elas são chamadas de "funções auxiliares" e serão tema de nosso
-		  	nível 5 aqui nessa jornada.
-
-		  	Por agora, o que precisa saber é: Cada uma dessas funções auxiliares
-		  	apresenta um método diferente para resolver esse exercício.
-
-		  	Tire um tempo para analisar como cada uma tenta resolver e avalie
-		  	qual parece melhor de se usar e atualizar no dia-a-dia.
-		*/
-		limpa()
-		escreva("Escolha um método: \nPirâmide = 1 \nSe-senao-se = 2 \nRESPOSTA: ")
-			leia(metodo_escolhido)
-
-		limpa()
-		escolha(metodo_escolhido){
-			caso 1:
-				faixa_imc = metodo_piramide(IMC)
-			pare
-
-			caso 2:
-				faixa_imc = metodo_se_senao_se(IMC)
-			pare
-
-			caso contrario:
-				faixa_imc = "ERRO"
-				escreva("Número inválido!")
-		}
+		real valor_compras_cliente
 		
+		real desconto_homens, desconto_mulheres, valor_mensagem
 
-		// Parte 5 - Apresentando o resultado
-		escreva("Seu IMC é: ", Mat.arredondar(IMC, 1), " o que indica que você está com: ", faixa_imc)
-		
-	}
+		real desconto_aplicado, valor_desconto, valor_compras_com_desconto
 
 
+		// Para facilitar a manutenção, vamos declarar o percentual de desconto aqui
+		desconto_homens   = 7.0 / 100
+		desconto_mulheres = 19.0 / 100
+		valor_mensagem    = 830.0
 
-// FUNÇÃO AUXILIAR "MÉTODO PIRÂMIDE":
-	
-	funcao cadeia metodo_piramide(real IMC){
-		
-		cadeia resposta
 
-	// Atenção a esta parte do código:
-		se (IMC < 16.0){
-			resposta = "MAGREZA SEVERA"
+		// Perguntando ao cliente
+		escreva("====== Vamos fazer uma pequena estrevista PROMOCIONAL! ======\n")
+		escreva("Qual seu nome? ")
+		leia(nome_cliente)
+
+		escreva("Qual seu gênero? [M/F]")
+		leia(genero_cliente)
+
+		escreva("Quanto custou suas compras hoje? ")
+		leia(valor_compras_cliente)
+
+
+		// Primeira análise condicional, visando determinar qual é o desconto que será aplicado
+		se(genero_cliente == 'F'){
+			desconto_aplicado = desconto_mulheres
 		} senao {
-			se (IMC >= 16.0 e IMC < 18.5){
-				resposta = "MAGREZA LEVE"
-			} senao {
-				se (IMC >= 18.5 e IMC < 25){
-					resposta = "PESO SAUDÁVEL"
-				} senao {
-					se (IMC >= 25 e IMC < 30){
-						resposta = "SOBREPESO"
-					} senao {
-							resposta = "OBESIDADE"
-					}
-				}
-			}
+			desconto_aplicado = desconto_homens
 		}
-	// =================================
-
-		retorne resposta
-	}
 
 
-
-
-// FUNÇÃO AUXILIAR "MÉTODO SE-SENAO-SE":
-	
-	funcao cadeia metodo_se_senao_se(real IMC){
+		// Cálculo dos valores após o desconto ser definido
+		valor_desconto = valor_compras_cliente * desconto_aplicado
 		
-		cadeia resposta
-	
-	// Atenção a esta parte do código:
-		se (IMC < 16.0){
-			
-			resposta = "MAGREZA SEVERA"
-			 
-		} senao se (IMC >= 16.0 e IMC < 18.5){
+		valor_compras_com_desconto = valor_compras_cliente - valor_desconto
 
-			resposta = "MAGREZA LEVE"
-			
-		} senao se (IMC >= 18.5 e IMC < 25){
 
-			resposta = "PESO SAUDÁVEL"
-			
-		} senao se (IMC >= 25 e IMC < 30){
+		// Informando resultados
+		limpa()
 
-			resposta = "SOBREPESO"
-			
-		} senao {
-			
-			resposta = "OBESIDADE"
+		escreva("Parabéns ", nome_cliente, "! Você ganhou R$ ", Mat.arredondar(valor_desconto, 2), " de desconto!\n")
+		escreva("Você só vai pagar, hoje, R$ ", Mat.arredondar(valor_compras_com_desconto,2))
+
+		// 2ª análise condicional, para ativar ou não a mensagem extra
+		se(valor_compras_com_desconto >= valor_mensagem){
+
+			escreva("MUITO OBRIGADO POR PARTICIPAR! 5% do que você pagou será doado para iniciativas de inclusão de mulheres na programação!\n")
 			
 		}
-	// =======================================================
 
-		retorne resposta
 	}
-
-
-	
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 180; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

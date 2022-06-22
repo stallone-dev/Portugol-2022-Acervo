@@ -16,11 +16,11 @@
 	=> A partir desse valor, é utilizada uma tabela para definir qual
 	grupo a pessoa se enquadra em relação à sua massa corporal. Aqui 
 	vamos considerar esta tabela aqui:
-		=> Magreza grave 	[<16]
-    	=> Magreza leve 	[>=16 e <18.5]
-    	=> Peso normal 	[>=18.5 e <25]
-    	=> Sobrepeso		[>=25 e <30]
-    	=> Obesidade		[>=30]
+		=> Magreza grave	[<16]
+    		=> Magreza leve	[>=16 e <18.5]
+    		=> Peso normal		[>=18.5 e <25]
+    		=> Sobrepeso		[>=25 e <30]
+    		=> Obesidade		[>=30]
 
 	=> Neste exercício, simule o cálculo do IMC, mostrando qual faixa
 	o usuário se encontra.

@@ -1,132 +1,74 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 02/06/2022
+    Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Gustavo Guanabara
+    Atualizado em: 06/06/22
  
     ===================== Nível 2 - Exercício 03 =====================
 
-    Antes de irmos mais a fundo nas relações lógicas, vamos voltar um
-    um pouco e usar uma outra ferramenta lógica: o Escolha-caso. 
-    
-    O exercício dessa vez será mais tranquilo, aproveite para usar bem
-    a criatividade!
-
-    Pergunte ao usuário qual o mês de aniversário dele [número],
-    em seguida, utilize o Escolha-caso para escrever uma mensagem 
-    personalizada para cada mês de aniversário.
-
-    Dica: Ajuda => Linguagem Portugol => Estruturas de controle =>
-    		=> Desvios condiconais => Escolha-caso
+    => Faça um algoritmo que pergunte a distância que um passageiro 
+    deseja percorrer em Km. 
+    => Calcule o preço da passagem, cobrando R$0.50 por Km para viagens 
+    até 200Km e R$0.45 para viagens mais longas.
     
     ==================================================================
 */
 
 programa 
-{
-	funcao inicio() 
+{	
+	inclua biblioteca Matematica --> Mat
+	funcao inicio() 		
 	{
 		/*
-		  Nossos objetivos são simples:
-		  	-- Saber o nome e o mês de aniversário do usuário
-		  	-- Escrever uma mensagem para cada mês
-		*/
+		 	LEMBRANDO - Os operadores relacionais são:
+	  			-- [ > ] - "Maior que" - Compara se o primeiro é MAIOR que o segundo
+	  			-- [ < ] - "Menor que" - Compara se o primeiro é MENOR que o segundo
+	  			-- [ >= ] - "Maior ou igual a" - O mesmo que [ > ], porém tolera igualdade
+	  			-- [ <= ] - "Menor ou igual a" - O mesmo que [ < ], porém tolera igualdade
+	  			-- [ == ] - "Igual a" - Compara se o primeiro é IGUAL ao segundo
+	  			-- [ != ] - "Diferente de" - Compara se o primeiro é DIFERENTE do segundo
+		 */
+		 
+		// Declarando as variáveis autodescritivas
+		inteiro distancia_km, patamar_desconto
+		real preco_km_padrao, preco_km_com_desconto
+		real valor_total
 
-		// Parte 1 - Declaração das variáveis importantes
-		inteiro mes
-
-
-		// Parte 2 - Perguntando ao usuário
-		escreva("Qual o seu mês de aniversário? [1 a 12] ")
-		leia(mes)
-
-
-		// Parte 3 - Desvio condicional Escolha-caso
-
-		/*
-		  A estrutura do Escolha-caso possui quatro elementos:
-		  	-- Um avaliador condicional: 				" escolha([ELEMENTO]){}
-		  	-- Um marcador de eventos possívels: 		" caso [POSSIBILIDADE]: "
-		  	-- Um marcador de parada: 				" pare "
-		  	-- E um caso-padrão para outras situações: 	" caso contrario: "
-		  		-- O caso padrão não precisa do "pare"
-
-		  A estrutura completa é assim:
-		  	escolha([ELEMENTO])
-		  	{
-		  		caso [Possibilidade 1]: 
-		  			[Código a ser executado]
-		  		pare
-
-		  		caso [Possibilidade 2]:
-		  			[Código a ser executado]
-		  		pare
-
-		  		caso contrario:
-		  			[Código-padrao a ser executado]
-		  			[não necessita do comando "PARE"]
-		  	}
-		*/
-
-		limpa()
+		// Atribuindo valor às variáveis de controle
+		patamar_desconto      = 200
+		preco_km_padrao 	  = 0.5
+		preco_km_com_desconto = 0.45
 		
-		escolha(mes)
-		{
-			caso 1:
-				escreva("Neste primeiro mês do ano, flores brancas voam aos céus \nJovens sorriem inspirados \nE velhos bebem pra dedéu!")
-			pare
 
-			caso 2:
-				escreva("Em Fevereiro o carnaval vigora \nToca banda, toca festa, toca samba na escola \nSó não pode deixar de tocar a boa e velha viola.")
-			pare
+		// Perguntando ao usuário
+		escreva("Quantos KM você quer viajar? ")
+		leia(distancia_km)
 
-			caso 3:
-				escreva("Meu caro de Março, o que digo a você? \nEspera um texto, um abraço, mas nada tenho a oferecer.")
-			pare
-
-			caso 4:
-				escreva("Feliz primeiro de Abril! \nTem chocolate e bolo para todo mundo!")
-			pare
-
-			caso 5:
-				escreva("Nos ventos de Maio, encontro-me aqui, \nHora a pensar, hora a refletir, \nSerá que um dia encontrarei um curso pra mim?")
-			pare
+		// Análise condicional para determinar o preço do KM
+		se(distancia_km >= patamar_desconto){
 			
-			caso 6:
-				escreva("Mês da festa junina no nordeste, que maravilha de época para comer comida boa que só o diacho!")
-			pare
+			valor_total = distancia_km * preco_km_com_desconto
 			
-			caso 7:
-				escreva("Julho, caro Julho, será você descendente de Cézar? \n...ou de Julius?")
-			pare
+		} senao {
 			
-			caso 8:
-				escreva("Mês de Agosto, época dos Pais e dos Estudantes,\nEternos guerreiros itinerantes!")
-			pare
-			
-			caso 9:
-				escreva("Em Setembro comemoramos a vida e a alegria de viver!\nTambém é o mês em que ajudamos quem desta se perdeu, \nE os que daquela tentam se desfazer.")
-			pare
-			
-			caso 10:
-				escreva("A MELHOR ÉPOCA DO ANO!\nDIA DAS BRUXAS, DOCES, AVENTURAS DE HALLOWEEN!")
-			pare
-			
-			caso 11:
-				escreva("Se você mora no Brasil, Novembro é um péssimo mês para torrar a grana, \nSe mora lá fora, BLACK FRIDAY!")
-			pare
-			
-			caso 12:
-				escreva("Feliz Natal! Desejo tudo de bom para mim e para você, \nE também para todos que precisam de cobertores e comida como eu e você.")
-			pare
-
-			caso contrario:
-				escreva("Então né... O mês ", mes," meio que não existe ainda, sabe?")
+			valor_total = distancia_km * preco_km_padrao
 		}
+
+		// Exibindo resultado
+		limpa()
+
+		escreva("O valor a ser pago será: R$ ", Mat.arredondar(valor_total,2))
 		
+
 	}
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 200; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

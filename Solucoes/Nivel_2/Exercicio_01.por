@@ -1,40 +1,15 @@
 /*
-    ========================== Informações ===========================
-    
-    Inspiração	- Curso em vídeo: Curso de Algoritmo (2014)
-    
-    Autor original		- Gustavo Guanabara
-    Autor da refatoração	- Stallone L. de Souza
-
-    Atualizado em: 02/06/2022
+    Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Gustavo Guanabara
+    Atualizado em: 06/06/22
  
     ===================== Nível 2 - Exercício 01 =====================
 
-    Bem vindo ao nível 2! Parabéns por ter chegado aqui, de verdade!
-    Muita gente que busca aprender a programar acaba engalhando na 
-    parte aritmética, por achar confuso ou inútil de se aplicar.
-
-    Mas, como você chegou aqui, vamos iniciar os exercícios de Desvio
-    Condicional, onde você e o usuário poderão mudar o caminho do resultado!
-
-    Escreva um algoritmo que pergunte ao usuário:
-    		-- Quanto ele pagou em um belo pote de 250g de açaí recheado
-    		-- Que horas ele prefere comer o açaí [somente números]
-
-    A partir disso, faça um desvio que avalie:
-    		-- Se ele pagou mais de R$ 8,00, mostre:
-    			-- "Esse açaí está meio caro, não?"
-    		-- Se pagou menos, diga:
-    			-- "No capricho!"
-
-    Em seguida faça outro desvio, que avalie:
-    		-- Se o horário for antes das 18h, mostre:
-    			-- "Melhor horário para o açaí!"
-    		-- Se for depois das 18h, diga:
-    			-- "Olha o resfriado vindo!"
-
-    Dica: Leia um pouco sobre Operações relacionais
-    		Ajuda => Linguagem Portugol => Expressões => Operadores relacionais
+    => Escreva um programa que pergunte a velocidade de um carro. 
+    => Caso ultrapasse 80Km/h, exiba uma mensagem dizendo que o usuário 
+    foi multado. 
+    => Nesse caso, exiba o valor da multa, cobrando R$5 por 
+    cada Km acima da velocidade permitida
     
     ==================================================================
 */
@@ -44,9 +19,7 @@ programa
 	funcao inicio() 
 	{
 		/*
-		  Neste nível, as estratégias se basearão em comparar entradas com
-		  algo pré-estabelecido ou outra entrada. De modo que:
-		  		-- As entradas serão comparadas através dos operadores relacionais
+			Neste nível, o principal é utilizar os OPERADORES RELAIONAIS.
 		  		-- Sendo eles:
 		  			-- [ > ] - "Maior que" - Compara se o primeiro é MAIOR que o segundo
 		  			-- [ < ] - "Menor que" - Compara se o primeiro é MENOR que o segundo
@@ -54,45 +27,56 @@ programa
 		  			-- [ <= ] - "Menor ou igual a" - O mesmo que [ < ], porém tolera igualdade
 		  			-- [ == ] - "Igual a" - Compara se o primeiro é IGUAL ao segundo
 		  			-- [ != ] - "Diferente de" - Compara se o primeiro é DIFERENTE do segundo
+		  			
 		  		-- O resultado dependerá se a comparação der VERDADEIRO ou FALSO como resultado
 		*/
 
-		// Parte 1 - Declaração das variáveis principais
-		real preco_acai, comparativo_preco_acai
-		inteiro horario_preferido, comparativo_horario
+		// Declarando variáveis autodescritivas
+		inteiro velocidade_carro, limite_velocidade,velocidade_em_excesso
+		real valor_multa, total_multa
 
-		// Os comparativos são declarados aqui para facilitar a manutenção futura
-		// Ao utulizar a variável em vez do valor em si, fica mais fácil de atualizar
-		// os valores de comparação.
-		comparativo_preco_acai 	= 8.0
-		comparativo_horario 	= 18
+		// Atribuindo valor aqui para facilitar o reaproveitamento do código
+		limite_velocidade = 80
+		valor_multa = 5.00
 
-
-		// Parte 2 - Perguntando ao usuário
-		escreva("Quanto você pagou nesse delicioso pode de 250g de açaí? ")
-		leia(preco_acai)
-
-		escreva("Que horas você prefere comer esse açaí? ")
-		leia(horario_preferido)
+		// Perguntando ao usuário
+		escreva("Em qual velocidade você dirige normalmente? km/h: ")
+		leia(velocidade_carro)
 
 
-		limpa() // Limpando a tela para receber melhor os resultados
+		// Aplicando condicional para comparar a velocidade com o limite
+		se(velocidade_carro > limite_velocidade){
+
+			// Calculando a multa
+			velocidade_em_excesso = velocidade_carro - limite_velocidade
+
+			total_multa = velocidade_em_excesso * valor_multa 
+
+
+			// Informando ao usuário
+			limpa()
+
+			escreva("Você está andando rápido demais")
+			escreva("Você está ", velocidade_em_excesso, " km/h acima do limite. \nSua multa é: R$ ", total_multa)
+
+
+		// Caso não tenha atendido à condição, é realizada esta daqui:
+		} senao {
+
+			escreva("Tudo certo, boa viagem!")
+		}
 
 		
-		// Parte 3 - Fazendo o desvio condicional
-		// Desvio relativo ao preço do açaí
-		se(preco_acai >= comparativo_preco_acai){
-			escreva("Esse açaí está meio caro, não?\n")
-		} senao {
-			escreva("Está no capricho!\n")
-		}
-
-		// Desvio relativo ao horário preferido
-		se(horario_preferido >= comparativo_horario){
-			escreva("Cuidado que o resfriado está vindo!\n")
-		} senao {
-			escreva("Melhor horário, impossível!")
-		}
-
 	}
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 2058; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

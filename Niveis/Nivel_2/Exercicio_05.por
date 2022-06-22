@@ -1,25 +1,24 @@
 /*
     Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 08/06/22
+    Atualizado em: 06/06/22
  
     ===================== Nível 2 - Exercício 05 =====================
 
-    Vamos aplicar extender a aplicação do desvio condicional:
-
-    => Escreva um algoritmo que pergunte ao usuário quanto ele pagou em
-    um belo pote de 250g de açaí, qual horário que ele comprou e quando
-    pretende comê-lo.
-
-    => Se ele pagou mais que R$ 8,00, mostre uma mensagem dizendo que ele
-    pagou caro, se não, mostre que saiu no lucro, com a diferença a mostra
+    Mais um exercício de aritmética condicional:
     
-    => Se a diferença entre o horarío de compra e o de consumo for maior
-    que 3 horas, informe que o açaí estará congelado, se não for, mostre:
-    "No capricho!"
+    Numa promoção exclusiva para o Dia da Mulher, uma loja quer 
+    dar descontos para todos, mas especialmente para mulheres. 
+    
+    => Faça um programa que leia nome, gênero e o valor das compras
+    do cliente e calcule o preço com desconto. Sabendo que:
+        => Homens ganham 7% de desconto
+        => Mulheres ganham 19% de desconto
 
-    Dica: Leia um pouco sobre as "Operações relacionais"
-    	Ajuda => Linguagem Portugol => Expressões => Operadores relacionais
+    => Caso o total de compras APÓS o desconto seja maior que R$ 830,00,
+    adicione a seguinte mensagem:
+        => "MUITO OBRIGADO! 5% do que você pagou será doado para 
+        iniciativas de inclusão de mulheres na programação!"
     
     ==================================================================
 */
@@ -28,6 +27,6 @@ programa
 {
 	funcao inicio() 
 	{
-		
+
 	}
 }
