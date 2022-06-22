@@ -42,7 +42,7 @@ programa
 		 */
 
 		// Declarando variáveis autodescritivas
-		cadeia resultado
+		cadeia resultado=""
 		inteiro metodo
 		real peso, altura, IMC
 
@@ -121,13 +121,34 @@ programa
 			}
 			pare
 		}
+
+		/*
+		 	Observe que os dois métodos chegam no mesmo resultado, porém o primeiro torna-se complicado de
+		 	escalonar, de adicionar novas faixas.
+		 		Observe que a cada passagem de faixa ele atribui um valor ao Resultado; para chegar no resultado
+		 		de "MAGREZA SEVERA" é preciso mudar o valor do resultado 3x antes, isso é muito ineficiente em
+		 		questão de cálculo.
+
+		 		Imagine que cada vez que é preciso mudar o valor do resultado, um pouquinho de tempo é gasto a mais
+		 		se 1 milhão de usuários fizerem esse cálculo ao mesmo tempo, será um tempo imenso para calcular 
+		 		tudo isso.
+
+		 		Fora a própria estrutura, que é um pouco confusa de saber onde começa e termina cada faixa.
+		 		
+		 		Imagine então se precisasse separar em faixas de 5 em 5, o tamanho dessa pirâmide seria imenso e
+		 		super confuso!
+		 		
+			Já o segundo método é um pouco menos intuitivo, porém é bem mais direto ao ponto em questão de cálculo.
+				Se o IMC não atende ao requisito, o resultado não é alterado, pulando um cálculo que seria realizado.
+		 	
+		 */
 		
 
 		// Exibindo resultados
-		escreva("
+		limpa()
+		escreva("====== RESULTADO ======\n")
+		escreva("\tSeu IMC é: ",Mat.arredondar(IMC, 1), ".\n\tSua faixa indica: ", resultado,".\n")
 		 
-		 
-
 			
 	}
 }
@@ -136,7 +157,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2593; 
+ * @POSICAO-CURSOR = 3744; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
