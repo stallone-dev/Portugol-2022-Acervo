@@ -3,7 +3,7 @@
     Autor       - Stallone L. de Souza
     Atualizado em: 08/06/22
  
-    ===================== Nível 3 - Exercício 07 =====================
+    ===================== Nível 3 - Exercício 06 =====================
 
     Vamos utiliza um outro laço agora, o "faça enquanto":
 
