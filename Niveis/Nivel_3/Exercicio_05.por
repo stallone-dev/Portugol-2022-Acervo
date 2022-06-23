@@ -16,8 +16,8 @@
     => A partir disso, mostre o seguinte resultado:
         => Quantos números PARES foram sorteados
         => Quantos números IMPARES foram sorteados
-        => Quantos foram divisíveis por 3 e por 5
-        => Quantos foram divisíveis por 2, 3 e 5
+        => Quantos foram divisíveis por 3 e por 5 (simultaneamente)
+        => Qual a soma de todos os números divisíveis por 3 e por 5
 
     OBS.: Para sortear números aleatórios, utiliza-se a biblioteca
           Útil, dê uma olhada por lá:
