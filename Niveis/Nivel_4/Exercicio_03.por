@@ -15,6 +15,8 @@
 
     => Depois de terminar o laço, mostre qual foi o valor da 3ª venda.
 
+    DICA: Lembrando que na programação a contagem começa em 0 (zero)
+
     ==================================================================
 */
 

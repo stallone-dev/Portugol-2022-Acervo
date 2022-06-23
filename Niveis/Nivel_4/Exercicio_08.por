@@ -1,7 +1,7 @@
 /*
     Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 10/06/22
+    Atualizado em: 22/06/22
  
     ===================== Nível 4 - Exercício 08 =====================
 
@@ -10,8 +10,7 @@
     => Junto a este exercício se encontra uma matriz 3x10 com números aleatórios
         => Dela, extraia a posição de todos os números múltiplos de 5
         => Além disso, faça um somatório de cada linha, individualmente
-        => Tire a média de cada coluna
-        => Determine o desvio-padrão da matriz inteira
+        => E calcule a média de cada coluna
 
     ==================================================================
 */

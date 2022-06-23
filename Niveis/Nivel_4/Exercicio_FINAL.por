@@ -12,16 +12,15 @@
     Mesmo assim, vamos ao exercício final:
 
     => Em uma sexta-feira, o setor Contábil lhe pediu para fazer uma
-    listagem de todas as Notas Fiscais que recuperaram ICMS nos últimos
-    10 dias do mês. Para isso eles lhe dão uma planilha com os dados 
-    das notas fiscais pagas até então. (Já inclusa no exercício)
+    listagem de todas as Notas Fiscais que recuperaram ICMS nos ÚLTIMOS
+    10 dias do mês. Para isso, lhe dão listas de vetores com os dados das 
+    notas fiscais pagas no mês inteiro. (Já inclusa no exercício)
     
-    => A partir dela, querem que você apresente:
-        => Quantas notas recuperaram ICMS.
+    => A partir delas, querem que você apresente:
+        => Quantas notas recuperaram ICMS nos últimos 10 dias.
         => Qual a média e o desvio padrão do ICMS recuperado.
-        => Quanto foi abatido com essa recuperação em relação
+        => Quanto foi abatido com essa recuperação de ICMS em relação
         ao valor total pago nas notas.
-        => Qual foi o fornecedor do qual mais se recuperou ICMS.
 
     Dica: Não congele diante do desafio, pense com calma quais elementos
           você realmente precisa analisar, como você pode analisá-los
