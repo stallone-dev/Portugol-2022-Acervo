@@ -52,6 +52,9 @@
         - 1L de leite condensado    = R$ 25,00
         - 5L de cappuccino pronto   = R$ 75,00
 
+    => LEMBRANDO: Calcule quanto deve custar CADA empada para se ter um lucro de pelo
+       menos R$ 1,00; calcule quantas empadas precisam ser vendidas p/dia até juntar 
+       os R$ 9.000,00 que ela precisa, considerando há um prazo de 4 anos para isso.
 
     Dica: Este é um exercício que envolverá uma quantidade numerosa de
           cálculos simples, tente visualizar esses cálculos de forma ampla,

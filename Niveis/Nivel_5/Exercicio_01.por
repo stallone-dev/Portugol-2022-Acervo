@@ -8,7 +8,7 @@
 
     Enfim chegamos ao Nível 5! Este nível, que na verdade é um dos mais
     simples, o que será feito é uma divisão de tarefas:
-        - Em vez de colocar toda responsabilidade do código em um lugar só
+        Em vez de colocar toda responsabilidade do código em um lugar só
         vamos separá-lo em pequenas funções e chamá-lo quando for necessário.
 
     => Crie um procedimento que gere 50 vezes o símbolo "=", em seguida, chame

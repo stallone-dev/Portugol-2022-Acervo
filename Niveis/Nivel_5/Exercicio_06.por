@@ -7,7 +7,7 @@
     
     Vamos consolidar nosso aprendizado até aqui:
 
-    => No exercício 8 do nível 3 foi realizada uma análise de funcionários.
+    => No exercício 6 do nível 3 foi realizada uma análise de funcionários.
     => Recrie esse exercício utilizando funções.
       
     ==================================================================

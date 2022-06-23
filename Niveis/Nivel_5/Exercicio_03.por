@@ -10,9 +10,9 @@
     => Desenvolva um procedimento que permita selecionar qual tipo de divisão
     de texto será utilizado.
 
-    Ex.: tipo_divisor(2)
+    Ex.: tipo_divisor(1)
          -----------------
-         tipo_divisor(1)
+         tipo_divisor(2)
          <<<<<<<<<>>>>>>>>
          tipo_divisor(3)
          +++++++++++++++++
