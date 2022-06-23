@@ -3,21 +3,18 @@
     Autor       - Gustavo Guanabara
     Atualizado em: 08/06/22
  
-    ===================== Nível 3 - Exercício 03 =====================
+    ===================== Nível 3 - Exercício 04 =====================
 
-    Lembra do desvio condicional? Vamos aplicá-lo!
+    Nesta parte 3, daremos enfoque ao laço "para", que será, vez ou outra
+    o mais importante laço a ser utilizado em seus códigos.
 
-    => Desenvolva um algoritmo que leia um valor inicial, um final e um
-    valor de incremento na contagem.
-    => Mostre a contagem ao usuário.
+    => Desenvolva um algoritmo que leia um número qualquer e mostre a
+    tabuada completa até o 20 desse número, utilizando o laço "para"
 
-    Ex: Digite o primeiro Valor: 3
-        Digite o último Valor: 10
-        Digite o incremento: 2
-        Contagem: 3 5 7 9 Acabou!
-
-    => Se o número final for menor que o inicial, desenvolva um método 
-    para fazer essa contagem regressiva.
+    Ex.: Digite um valor: 5
+         5 x 1 = 5
+         5 x 2 = 5
+         5 x 5 = 25 ...
 
     ==================================================================
 */

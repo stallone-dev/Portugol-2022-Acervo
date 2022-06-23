@@ -4,10 +4,8 @@
     Atualizado em: 08/06/22
  
     ===================== Nível 3 - Exercício 07 =====================
-    ========================= Fim da parte 2 =========================
 
-    Este é o final da Parte 2, um exercício interessante para analisar
-    simular um fluxo de caixa.
+    Mais uma simulação: Vamos simular uma análise de fluxo de caixa!
 
     => Você foi encarregado de fazer uma análise das vendas de uma
     açaiteria, com o objetivo de encontrar quais produtos vendem mais,

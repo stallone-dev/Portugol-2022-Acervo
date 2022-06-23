@@ -22,9 +22,6 @@
 * [Exercício 7](./Exercicio_07.por)
 * [Exercício 8](./Exercicio_08.por)
 * [Exercício 9](./Exercicio_09.por)
-* [Exercício 10](./Exercicio_10.por)
-* [Exercício 11](./Exercicio_11.por)
-* [Exercício 12](./Exercicio_12.por)
 * [Exercício FINAL](./Exercicio_FINAL.por)
 
 ***

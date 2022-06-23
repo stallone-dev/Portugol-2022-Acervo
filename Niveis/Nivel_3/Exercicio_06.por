@@ -4,13 +4,8 @@
     Atualizado em: 08/06/22
  
     ===================== Nível 3 - Exercício 06 =====================
-    ========================= Fim da parte 1 =========================
-
-    UMA SURPRESA!: O nível 3 será dividido em 3 partes, visando incentivar
-    o uso dos diferentes laços de repetição. Até aqui todos os exercícios
-    puderam ser resolvidos utilizando só o "Enquanto", este de agora será
-    o desafio final dessa parte. A partir do próximo será incentivado 
-    o uso dos outros laços, "Faça enquanto" e "para..."
+    
+    Vamos a um pequeno desafio: Simular um pequeno levantamento de dados.
 
     => Construa um algoritmo que receba a IDADE, o GÊNERO e a ALTURA
     de 10  pessoas, em seguida, calcule:

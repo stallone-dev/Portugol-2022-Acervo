@@ -1,57 +1,53 @@
 /*
     Autor       - Stallone L. de Souza
-    Atualizado em: 09/06/22
+    Atualizado em: 22/06/22
  
     =================== Nível 3 - Exercício FINAL ====================
-    
+
     Meus parabéns por ter chegado ao exercício final do Nível 3! Fico
     grato pelo esforço e dedicação que lhe trouxeram até aqui. Mas
     chega de enrolação, eis a bomba do Nível 3:
 
-    => Lembra do exercício 09 aqui do nível 3? Então, nele você tinha
-    de analisar o fluxo de caixa de UM ÚNICO dia, avaliando quais produtos
-    venderam mais, quanto foi vendido de cada e qual a porcentagem de venda
-    dos três mais vendidos.
+    O laço "Para" é muito útil quando se quer ter um controle preciso
+    de quantas repetições irão ocorrer, esse controle é necessário em
+    situações como uma pesquisa de opinião, uma análise estatística e
+    um controle de acesso.
 
-    => Para este exercício final, a HL, dona da açaiteria, quer que você
-    estenda essa análise para 6 dias, avaliando também o seguinte:
-        => Dos três itens mais vendidos, qual a MÉDIA de saída deles?
-        => Dos três itens mais vendidos, qual o DESVIO PADRÃO deles?
-        => Nos 3 primeiros dias o item mais vendido foi o mesmo dos 3 últimos dias?
+    Vamos simular esse último agora:
+
+    => Crie um pequeno sistema de gerenciamento de acesso, nele deve constar:
+        => Uma parte onde a Administração informará o número de fichas
+        => Uma parte onde as fichas serão preenchidas manualmente
+
+    => Para a parte adminsitrativa, deve ser preciso usar uma senha para acessar
+        Ex.: 1234
+
+    => Para parte de preenchimento dos dados, basta selecioná-la para acessar.
+
+    => Considere aqui que a ficha deve constar:
+        => Gênero [F/M]
+        => Idade 
+        => Salário
+
+    => No momento de preencher os dados da ficha, deve sempre ser exibido:
+        => Quantas fichas já foram preenchidas
+        => Quantas fichas existem no total
+            Ex.: [2 / 10]
+                 [3 / 10]
+
+    => Com as fichas preenchidas, calcule e exiba os seguintes dados:
+        => Quantas mulheres foram inseridas
+        => Quantos homens foram inseridos
+        => Qual a média de idade
+        => Qual a média salarial
+        => Qual o desvio-padrão salarial das mulheres.
 
 
-    OBS.: Por que analisar o DESVIO PADRÃO?
-
-          Dentro da estatística, a MÉDIA é uma informação que não agrega
-          muito valor de decisão, uma vez que uma média não revela qual
-          o tamanho da variação que ocorreu, em especial nas vendas.
-
-          Por exemplo:
-          Digamos que em 3 dias vendeu uma MÉDIA de 80 sorvetes p/dia.
-          Dependendo da expectativa de vendas do sorvete, esse número
-          pode indicar que precisa aumentar o estoque ou diminuir ele.
-          Ou até mesmo mudar o produto, mas vamos ver o desvio:
-
-          Vamos supor que o desvio padrão foi de 60 sorvetes. O que isso
-          significa?
-            Significa que nesses 3 dias, ocorreu algo mais ou menos assim:
-                Dia 1 - 80 sorvetes vendidos
-                Dia 2 - 20 sorvetes vendidos
-                Dia 3 - 140 sorvetes vendidos
-
-          Com essa variação tão grande nas vendas, fica muito arrisado decidir
-          investir, pois tanto pode ficar um fluxo de 100+ sorvetes p/dia
-          quanto um período longo vendendo só 20 ou 30.
-
-          Em outro cenário, onde o desvio padrão fosse, por exemplo, 
-          de 6 sorvetes, essa decisão seria muito mais segura, visto que
-          as vendas nesses 3 dias foram bem consistentes.
-
-          Ter mais segurança em uma decisão é vital para QUALQUER situação.
-
-          Em linhas gerais, quanto mais amostras forem analisadas e menor for
-          o devio padrão, mais confiança você pode dar a uma decisão, o que é
-          muito valioso, em especial quando se trata de investimentos.
+    DICA: Pegue um caderno e desenhe cada processo que existe aqui.
+          Separe-os em grupos de etapas de resolução, como se fossem
+          mini-algoritmos.
+          Analise se esse arranjo de etapas faz sentido para resolver todo 
+          o problema proposto.
 
     ==================================================================
 */
