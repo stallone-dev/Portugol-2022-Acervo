@@ -61,9 +61,6 @@
 * [Exercício 7](./Nivel_3/Exercicio_07.por)
 * [Exercício 8](./Nivel_3/Exercicio_08.por)
 * [Exercício 9](./Nivel_3/Exercicio_09.por)
-* [Exercício 10](./Nivel_3/Exercicio_10.por)
-* [Exercício 11](./Nivel_3/Exercicio_11.por)
-* [Exercício 12](./Nivel_3/Exercicio_12.por)
 * [Exercício FINAL](./Nivel_3/Exercicio_FINAL.por)
 
 </details>
