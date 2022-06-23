@@ -5,8 +5,8 @@
  
     ===================== Nível 3 - Exercício 04 =====================
 
-    Nesta parte 3, daremos enfoque ao laço "para", que será, vez ou outra
-    o mais importante laço a ser utilizado em seus códigos.
+    Nesta parte 3, daremos enfoque ao laço "para", que será vez ou outra
+    o mais importante laço a ser utilizado em seus algoritmos.
 
     => Desenvolva um algoritmo que leia um número qualquer e mostre a
     tabuada completa até o 20 desse número, utilizando o laço "para"

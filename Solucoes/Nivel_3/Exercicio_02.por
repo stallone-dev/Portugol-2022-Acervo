@@ -1,25 +1,20 @@
 /*
-    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
-    Autor       - Stallone L. de Souza
+    Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Gustavo Guanabara
     Atualizado em: 08/06/22
-    
+ 
     ===================== Nível 3 - Exercício 02 =====================
-    
-    => Escreva um algoritmo que leia um número inteiro maior que 0 e 
-       faça:
-         => Uma contagem de 0 até esse número
-         => A mesma contagem, só que de 2 em 2
-         => A mesma contagem, só que multiplicando o número atual por 3
-         => A mesma contagem, só que cada vez que contar, multiplicará
-         o número atual + 2 por ele mesmo
 
-   => Mostre O resultado final tabulado e em linhas distintas.
+    => Desenvolva um algoritmo que mostre uma contagem regressiva a partir
+    do número informado pelo usuário;
+    => Marque e exiba os números que forem divisíveis por 3, como mostrado abaixo:
 
-   Ex.:  0..1..2..3..4
-         0..2..4
-         0..3..6..9..12
-         0..3..8..15..24
+    Ex.: 20, 19, [18], 17, 16, [15], 14, 13, [12], 11, 10, [9], 8, 7, [6], 5, 4, [3], 2, 1
+
+    => Experimente fazer isso com os 3 laços de repetição no Portugol
     
+    DICA: Já ouviu falar sobre "Resto da divião inteira"?
+
     ==================================================================
 */
 
@@ -27,12 +22,11 @@ programa
 {
 	funcao inicio() 
 	{
+
 		/*
-		 	Para fins de praticidade, irei priorizar o método "para", uma vez que será
-		 	o principal a ser utilizado em cenários reais.
-		 	Lembrando:
-		 		Para( contador ; critério ; fator de crescimento ou decrescimento do contador){}
-		 		Para( inteiro c = 0 ; c < 10 ; c++){}
+		 * 	Nesta questão, o destaque é o uso de um desvio condicional dentro de um laço.
+		 * 	Esse desvio atuará sobre TODOS os elementos que passarem por ele, como uma
+		 * 	rodovia cheia de carros.
 		 */
 
 		inteiro entrada, contador
@@ -40,59 +34,19 @@ programa
 		escreva("Digite um número maior que 0: ")
 		leia(entrada)
 
+		contador = entrada
+		enquanto(contador >= 0){		// Por hora vou priorizar o método "enquanto"
 
-		// Parte 1: contagem simples
-		escreva("Contando até ",entrada,": \t\t\t\t\t\t")
-		
-		para(contador = 0; contador <= entrada; contador++){
-		 	se(contador < entrada){
-		 		escreva(contador,"..")
-		 	} senao {
-		 		escreva(contador, "!\n")
-		 	}
+			se(contador % 3 == 0){
+				escreva("[", contador, "], ")
+			} senao {
+				escreva(contador, ", ")
+			}
+
+			contador--
+			// Embora esteja aqui embaixo, no final do laço, esse elemento foi o primero
+			// a ser escrito aqui dentro, evitando de causar uma repetição infinita
 		}
-
-
-		// Parte 2: contagem de 2 em 2 (observe o fator de incremento)
-		escreva("Contando de 2 em 2 até ",entrada,": \t\t\t\t\t")
-		
-		para(contador = 0; contador <= entrada; contador += 2){
-		 	
-		 	se(contador < entrada){
-		 		escreva(contador,"..")
-		 	} senao {
-		 		escreva(contador, "!")
-		 	}
-		}
-		escreva("\n")
-
-
-		// Parte 3: contagem simples + multiplicação por 3 (observe o "escreva" dentro do laço)
-		escreva("Contando até ",entrada," e multiplicando por 3: \t\t\t\t")
-		para(contador = 0; contador <= entrada; contador++){
-		 	
-		 	se(contador < entrada){
-		 		escreva(contador * 3,"..")
-		 	} senao {
-		 		escreva(contador * 3, "!")
-		 	}
-		}
-		escreva("\n")
-
-
-		// Parte 4: Contagem simples + resultado incremental (observe que há uma variável auxiliar declarada dentro do loop)
-		escreva("Contando até ",entrada,", somando 2 e multiplicando pelo contador: \t")
-		para(contador = 0; contador <= entrada; contador++){
-
-			inteiro valor = (contador + 2) * contador
-		 	
-		 	se(contador < entrada){
-		 		escreva(valor,"..")
-		 	} senao {
-		 		escreva(valor, "!\n")
-		 	}
-		}
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -100,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1939; 
+ * @POSICAO-CURSOR = 1359; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
