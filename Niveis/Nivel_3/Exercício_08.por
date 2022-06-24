@@ -1,23 +1,49 @@
 /*
-    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
     Atualizado em: 22/06/22
  
     ===================== Nível 3 - Exercício 08 =====================
 
-    Vamos criar um pequeno sistema bem interessante:
+    O laço "Para" é muito útil quando se quer ter um controle preciso
+    de quantas repetições irão ocorrer, esse controle é necessário em
+    situações como uma pesquisa de opinião, uma análise estatística e
+    um controle de acesso.
 
-    =>  Imagine que você presta serviços de programação para 3 empresas.
-        Para saber se seus esforços estão sendo produtivos, você decide
-        fazer um levantamento de quantos trabalhos fez em cada uma e quantas
-        horas dedicou em cada trabalho.
+    Vamos simular esse último agora:
 
-    =>  A partir disso, você deseja saber qual a média de tempo gasto em
-        cada empresa e qual a média geral de tempo demandado em um trabalho.
+    => Crie um pequeno sistema de gerenciamento de acesso, nele deve constar:
+        => Uma parte onde a Administração informará o número de fichas
+        => Uma parte onde as fichas serão preenchidas manualmente
 
-    => Construa um programa que simule a situação acima, exibindo nos resultados:
-        => A quantidade de trabalhos feitos e a média de tempo demandado p/empresa
-        => A média geral de tempo demandado nos trabalhos
+    => Para a parte adminsitrativa, deve ser preciso usar uma senha para acessar
+        Ex.: 1234
+
+    => Para parte de preenchimento dos dados, basta selecioná-la para acessar.
+
+    => Considere aqui que a ficha deve constar:
+        => Gênero [F/M]
+        => Idade 
+        => Salário
+
+    => No momento de preencher os dados da ficha, deve sempre ser exibido:
+        => Quantas fichas já foram preenchidas
+        => Quantas fichas existem no total
+            Ex.: [2 / 10]
+                 [3 / 10]
+
+    => Com as fichas preenchidas, calcule e exiba os seguintes dados:
+        => Quantas mulheres foram inseridas
+        => Quantos homens foram inseridos
+        => Qual a média de idade
+        => Qual a média salarial
+        => Qual o desvio-padrão salarial das mulheres.
+
+
+    DICA: Pegue um caderno e desenhe cada processo que existe aqui.
+          Separe-os em grupos de etapas de resolução, como se fossem
+          mini-algoritmos.
+          Analise se esse arranjo de etapas faz sentido para resolver todo 
+          o problema proposto.
 
     ==================================================================
 */

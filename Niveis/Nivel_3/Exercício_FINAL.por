@@ -8,46 +8,53 @@
     grato pelo esforço e dedicação que lhe trouxeram até aqui. Mas
     chega de enrolação, eis a bomba do Nível 3:
 
-    O laço "Para" é muito útil quando se quer ter um controle preciso
-    de quantas repetições irão ocorrer, esse controle é necessário em
-    situações como uma pesquisa de opinião, uma análise estatística e
-    um controle de acesso.
+    Lembra do exercício 09 aqui do nível 3? Então, nele você tinha
+    de analisar o fluxo de caixa de UM ÚNICO dia, avaliando quais produtos
+    venderam mais, quanto foi vendido de cada e qual a porcentagem de venda
+    dos itens.
 
-    Vamos simular esse último agora:
+    A HL, dona da açaiteria, gostou muito do seu trabalho e quer ampliar
+    a análise feita, para ela ter CERTEZA que vai tomar a DECISÃO CERTA.
 
-    => Crie um pequeno sistema de gerenciamento de acesso, nele deve constar:
-        => Uma parte onde a Administração informará o número de fichas
-        => Uma parte onde as fichas serão preenchidas manualmente
-
-    => Para a parte adminsitrativa, deve ser preciso usar uma senha para acessar
-        Ex.: 1234
-
-    => Para parte de preenchimento dos dados, basta selecioná-la para acessar.
-
-    => Considere aqui que a ficha deve constar:
-        => Gênero [F/M]
-        => Idade 
-        => Salário
-
-    => No momento de preencher os dados da ficha, deve sempre ser exibido:
-        => Quantas fichas já foram preenchidas
-        => Quantas fichas existem no total
-            Ex.: [2 / 10]
-                 [3 / 10]
-
-    => Com as fichas preenchidas, calcule e exiba os seguintes dados:
-        => Quantas mulheres foram inseridas
-        => Quantos homens foram inseridos
-        => Qual a média de idade
-        => Qual a média salarial
-        => Qual o desvio-padrão salarial das mulheres.
+    => Ela lhe pediu o seguinte: Estenda a análise para 3 dias, e além das
+    informações já calculadas anteriormente, ela quer saber também:
+        => Qual a MÉDIA de itens vendidos por dia
+        => Qual a MÉDIA da receita diária
+        => Qual o DESVIO PADRÃO de vendas de cada item
 
 
-    DICA: Pegue um caderno e desenhe cada processo que existe aqui.
-          Separe-os em grupos de etapas de resolução, como se fossem
-          mini-algoritmos.
-          Analise se esse arranjo de etapas faz sentido para resolver todo 
-          o problema proposto.
+    OBS.: Por que analisar o DESVIO PADRÃO?
+
+          Dentro da estatística, a MÉDIA é uma informação que não agrega
+          muito valor de decisão, uma vez que uma média não revela qual
+          o tamanho da variação que ocorreu, em especial nas vendas.
+
+          Por exemplo:
+          Digamos que em 3 dias vendeu uma MÉDIA de 80 sorvetes p/dia.
+          Dependendo da expectativa de vendas do sorvete, esse número
+          pode indicar que é preciso aumentar o estoque ou diminuir ele.
+          Ou até mesmo mudar o produto, mas vamos ver o desvio:
+
+          Vamos supor que o desvio padrão foi de 60 sorvetes. O que isso
+          significa?
+            Significa que nesses 3 dias, ocorreu algo mais ou menos assim:
+                Dia 1 - 80 sorvetes vendidos
+                Dia 2 - 20 sorvetes vendidos
+                Dia 3 - 140 sorvetes vendidos
+
+          Com essa variação tão grande nas vendas, fica muito arrisado de
+          investir, pois tanto pode ficar um fluxo de 100+ sorvetes p/dia
+          quanto um período prolongado vendendo só 20 ou 30 sorvetes.
+
+          Se nesse mesmo cenário o desvio padrão fosse, por exemplo, 
+          de 6 sorvetes, essa decisão seria muito mais segura, visto que
+          as vendas nesses 3 dias foram bem consistentes.
+
+          Ter mais segurança em uma decisão é vital para QUALQUER situação.
+
+          Em linhas gerais, quanto mais amostras forem analisadas e menor for
+          o DESVIO PADRÃO, mais confiança você pode dar a uma decisão, o que é
+          muito valioso, em especial quando se trata de investimentos.
 
     ==================================================================
 */

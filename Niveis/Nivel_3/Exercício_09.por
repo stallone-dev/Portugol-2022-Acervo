@@ -1,54 +1,34 @@
 /*
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 22/06/22
+    Atualizado em: 08/06/22
  
     ===================== Nível 3 - Exercício 09 =====================
 
-    => Lembra do exercício 07 aqui do nível 3? Então, nele você tinha
-    de analisar o fluxo de caixa de UM ÚNICO dia, avaliando quais produtos
-    venderam mais, quanto foi vendido de cada e qual a porcentagem de venda
-    dos três mais vendidos.
+    Mais uma simulação: Vamos simular uma análise de fluxo de caixa!
 
-    => Para este exercício, a HL, dona da açaiteria, quer que você
-    estenda essa análise para 3 dias, avaliando também o seguinte:
-        => Dos três itens mais vendidos, qual a MÉDIA de venda deles?
-        => Dos três itens mais vendidos, qual o DESVIO PADRÃO deles?
-        => Qual foi o item mais vendido em cada dia?
+    => Você foi encarregado de fazer uma análise das vendas de uma
+    açaiteria, com o objetivo de encontrar quais produtos vendem mais,
+    para que assim a proprietária do local, a srta. HL, possa direcionar
+    seu próximo lote de investimentos.
+    
+    => HL lhe informa que a açaiteria trabalha com os seguintes produtos:
+        => Açaí rústico
+        => Sorvete napolitano
+        => Brownie de pote com sorvete
 
+    => Ela lhe pede para acompanhar o fluxo de caixa ao longo de 1 dia
+    e em seguida informar as seguintes coisas:
+        => Quantos produtos foram vendidos
+        => Quanto de cada produto foi vendido
+        => Qual o valor total das vendas de cada produto
+        => Qual a porcentagem de venda dos três itens em relação ao total geral
 
-    OBS.: Por que analisar o DESVIO PADRÃO?
+    => Exiba todos os resultados arredondados e tabelados.
 
-          Dentro da estatística, a MÉDIA é uma informação que não agrega
-          muito valor de decisão, uma vez que uma média não revela qual
-          o tamanho da variação que ocorreu, em especial nas vendas.
-
-          Por exemplo:
-          Digamos que em 3 dias vendeu uma MÉDIA de 80 sorvetes p/dia.
-          Dependendo da expectativa de vendas do sorvete, esse número
-          pode indicar que é preciso aumentar o estoque ou diminuir ele.
-          Ou até mesmo mudar o produto, mas vamos ver o desvio:
-
-          Vamos supor que o desvio padrão foi de 60 sorvetes. O que isso
-          significa?
-            Significa que nesses 3 dias, ocorreu algo mais ou menos assim:
-                Dia 1 - 80 sorvetes vendidos
-                Dia 2 - 20 sorvetes vendidos
-                Dia 3 - 140 sorvetes vendidos
-
-          Com essa variação tão grande nas vendas, fica muito arrisado de
-          investir, pois tanto pode ficar um fluxo de 100+ sorvetes p/dia
-          quanto um período prolongado vendendo só 20 ou 30 sorvetes.
-
-          Se nesse mesmo cenário o desvio padrão fosse, por exemplo, 
-          de 6 sorvetes, essa decisão seria muito mais segura, visto que
-          as vendas nesses 3 dias foram bem consistentes.
-
-          Ter mais segurança em uma decisão é vital para QUALQUER situação.
-
-          Em linhas gerais, quanto mais amostras forem analisadas e menor for
-          o DESVIO PADRÃO, mais confiança você pode dar a uma decisão, o que é
-          muito valioso, em especial quando se trata de investimentos.
-
+    DICA: Antes de calcular o fluxo de caixa, é preciso TER um fluxo
+          de caixa.
+          
     ==================================================================
 */
 
