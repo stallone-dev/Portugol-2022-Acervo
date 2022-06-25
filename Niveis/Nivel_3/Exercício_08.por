@@ -36,8 +36,6 @@
         => Quantos homens foram inseridos
         => Qual a média de idade
         => Qual a média salarial
-        => Qual o desvio-padrão salarial das mulheres.
-
 
     DICA: Pegue um caderno e desenhe cada processo que existe aqui.
           Separe-os em grupos de etapas de resolução, como se fossem
