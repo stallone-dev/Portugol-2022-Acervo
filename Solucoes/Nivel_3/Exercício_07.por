@@ -3,7 +3,7 @@
     Autor       - Stallone L. de Souza
     Atualizado em: 22/06/22
  
-    ===================== Nível 3 - Exercício 08 =====================
+    ===================== Nível 3 - Exercício 07 =====================
 
     Vamos criar um pequeno sistema bem interessante:
 
