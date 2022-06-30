@@ -1,23 +1,28 @@
 /*
-    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 09/06/22
+    Atualizado em: 30/06/22
  
     ===================== Nível 4 - Exercício 06 =====================
 
-    Neste ponto você já deve ter um controle sólido sobre como preencher
-    e requisitar valores de um vetor, bem como suas posições.
+    Agora que já passou pelos exercícios de manipulação de vetores,
+    vamos aprofundar um outro conceito importante: A combinação de
+    vetores.
 
-    Portanto, o exercicio será uma breve retomada com esse conhecimento:
+    => Você foi encarregado de montar um sistema simples de cadastro
+    de currículos, nele deve constar:
+    		=> Nome
+    		=> Idade
+    		=> Pretenção salarial
 
-    => Preencha um vetor de tamanho 50 com números aleatórios.
-    => Faça um algoritmo que extraia do vetor:
-        => A soma de todos os números
-        => A média geral
-        => Quantos números foram maiores que 20 e menores que 40
-        => Qual a posição dos números múltiplos de 7
+    => Com esse sistema montado, também é requerido montar um sistema
+    para acessar cada um desses currículos, à critério do analisador.
 
-    Dica: Utilize a biblioteca Útil para gerar números aleatórios.
+    => Além disso, os currículos já visualizados devem ser destacados,
+    para não serem analisados novamente.
+
+    => Construa um algoritmo que simule esse sistema, utilizando vetores
+    e conectando-os pelo mesmo laço de repetição.
+
     ==================================================================
 */
 

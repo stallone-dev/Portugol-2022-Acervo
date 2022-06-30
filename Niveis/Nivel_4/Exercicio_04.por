@@ -5,7 +5,7 @@
     
     ===================== Nível 4 - Exercício 04 =====================
 
-    Vamos para um exercício aritmético para fechar esse contato inicial
+    Vamos exercitar nossa lógica aritmética:
 
     => Declare um vetor de tamanho 100 e preencha-o com números aleatórios
     		=> Utilize a bibliotea "Útil" para isso
