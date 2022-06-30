@@ -1,18 +1,22 @@
 /*
-    Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
-    Autor       - Gustavo Guanabara
-    Atualizado em: 09/06/22
+    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
+    Autor       - Stallone L. de Souza
+    Atualizado em: 30/06/22
     
     ===================== Nível 4 - Exercício 04 =====================
 
-    Vamos para mais uma situação prática:
+    Vamos para um exercício aritmético para fechar esse contato inicial
 
-    => Você está trabalhando em uma lista de candidatos, e quer organizá-la
-    pela ordem DECRESENTE de preenchimento
+    => Declare um vetor de tamanho 100 e preencha-o com números aleatórios
+    		=> Utilize a bibliotea "Útil" para isso
 
-    => Faça um programa que leia 7 nomes de pessoas e guarde-os em um vetor.
-    => No final, mostre uma listagem com todos os nomes informados, na ordem
-    inversa daquela em que eles foram informados.
+    => Utilizando o que aprendeu até então, calcule:
+    		=> A soma de todos os elementos do vetor
+    		=> A contagem de todos os ímpares
+    		=> A média dos números do vetor
+    		=> Qual foi o maior número
+    		=> Qual foi o menor número
+    		=> Quantos números presentes são múltiplos de 7
       
     ==================================================================
 */

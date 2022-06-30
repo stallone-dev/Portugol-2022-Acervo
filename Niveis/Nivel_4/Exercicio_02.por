@@ -1,7 +1,7 @@
 /*
     Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Gustavo Guanabara
-    Atualizado em: 09/06/22
+    Atualizado em: 30/06/22
     
     ===================== Nível 4 - Exercício 02 =====================
 
@@ -11,7 +11,7 @@
     => Faça um laço de repetição que coloque um valor em cada posição
         => O valor deve ser de 5 em 5 números
     
-    Ex.: {5,10,15,20...}
+    Ex.: [5,10,15,20...]
 
     => Em seguida mostre o valor de cada posição, como no exercício
     anterior.

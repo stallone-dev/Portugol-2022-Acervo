@@ -1,11 +1,12 @@
 /*
     Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 09/06/22
+    Atualizado em: 30/06/22
  
     ===================== Nível 4 - Exercício 03 =====================
 
-    Com esse conhecimento inicial, vamos treinar uma aplicação prática:
+    Vamos avaliar agora a principa vantagem dos vetores:
+		A capacidade de armazenar dados separadamente.
 
     => Na açaiteria da HL, você está analisando o fluxo de caixa do Sorvete.
     Para isso, você está registrando em uma lista o valor de cada venda.

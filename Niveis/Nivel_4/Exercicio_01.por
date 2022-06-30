@@ -1,7 +1,7 @@
 /*
     Fonte       - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Gustavo Guanabara
-    Atualizado em: 09/06/22
+    Atualizado em: 30/06/22
     
     ===================== Nível 4 - Exercício 01 =====================
     ======================== Etapa de Vetores ========================
@@ -20,11 +20,11 @@
 
     Agora sim, ao primeiro exercício:
       
-    => Crie um vetor de 10 posições {0 a 9} e preencha cada um deles
+    => Crie um vetor de 10 posições [0 a 9] e preencha cada um deles
     com um número. Depois, utilizando o laço "Para", exiba o valor que
     está em cada posição do vetor.
 
-    Ex.: inteiro numeros[] = {5,4,3,2,9...}
+    Ex.: inteiro numeros[] = [5,4,3,2,9...]
          Posição 0 = 5
          Posição 1 = 4
          Posição 2 = 3
