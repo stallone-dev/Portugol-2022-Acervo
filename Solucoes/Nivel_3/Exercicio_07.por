@@ -146,7 +146,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4895; 
+ * @POSICAO-CURSOR = 180; 
  * @DOBRAMENTO-CODIGO = [29];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
