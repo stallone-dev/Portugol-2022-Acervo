@@ -1,25 +1,32 @@
 /*
-    Inspiração  - Curso em Vídeo: Curso de Algoritmo (2014)
     Autor       - Stallone L. de Souza
-    Atualizado em: 09/06/22
+    Atualizado em: 30/06/22
  
     ===================== Nível 4 - Exercício 07 =====================
-    ======================== Etapa de Matrizes =======================
 
-    Uma matriz é similar a uma planilha, onde a linha representa
-    uma posição e a coluna representa outra, a junção das duas posições
-    forma a célula, que é onde está o valor.
+    Para encerrarmos a parte de Vetores, vamos a uma situação real onde
+    a aplicação de vetores faz total diferença:
 
-    No Portugol, as matrizes só podem possuir um único tipo de valor,
-    somente inteiros, somente palavras, etc. Dito isso:
+    => Você foi encarregado de montar um sistema simples de cadastro
+    de currículos, nele deve constar:
+    		=> Nome
+    		=> Idade
+    		=> Pretenção salarial
 
-    => Crie uma matriz 2x4 vazia.
-    => Agrege na primeira linha números elatórios.
-    => Na segunda linha, coloque o dobro dos números da primeira
-    => A partir disso, exiba:
-        => A soma de toda a matriz
-        => A média de toda a matriz
-        => Qual o valor da 3º coluna da 2ª linha
+    => Com esse sistema ponto, você também montará um sistema
+    para acessar cada um desses currículos, à critério do analisador.
+
+    => Além disso, os currículos já visualizados devem ser destacados,
+    para não serem analisados novamente.
+
+    => Construa um algoritmo que simule o que foi descrito acima, utilizando 
+    vetores e sistemas auxiliares.
+
+    DICA: Conecte os vetores através de um mesmo laço de repetição, assim
+    		será menos trabalhoso alinhar cada resultado.
+
+    		Lembra do sistema constrúido no final do nível 3? Então, aqui
+    		ele deve vir bem à calhar.
 
     ==================================================================
 */
